@@ -1,0 +1,4053 @@
+{
+  "target_key": "epsilon_indi_b_fov0p120_v4",
+  "target": {
+    "id": "epsilon_indi_b",
+    "name": "Epsilon Indi B",
+    "category": "Binary Brown Dwarf (T1 + T6)",
+    "description": "Closest binary brown dwarf pair (Eps Indi Ba/Bb), located ~6.7 arcmin from bright star Epsilon Indi A, moving at ~4.7 arcsec/yr.",
+    "ra_ref": 331.04414659,
+    "dec_ref": -56.7828442,
+    "ra_obs": 331.09668131906733,
+    "dec_obs": -56.800653424581306,
+    "ref_epoch_jyear": 2000.0,
+    "obs_epoch_jyear": 2026.006,
+    "pmra_mas_yr": 3981.977,
+    "pmdec_mas_yr": -2466.832,
+    "distance_pc": 3.638,
+    "fov_deg": 0.12,
+    "recommended_detector": "D2",
+    "is_named_target": true,
+    "scientific_notes": "Targeted directly on the brown dwarf binary component Eps Indi Ba/Bb (~6.7' away from Eps Indi A) and propagated to the SPHEREx observation epoch."
+  },
+  "target_positions": {
+    "reference": {
+      "epoch_jyear": 2000.0,
+      "ra": 331.044147,
+      "dec": -56.782844,
+      "x": 51.7105,
+      "y": 45.3344,
+      "shift_arcsec": 0.0,
+      "shift_arcsec_from_epoch_0": 0.0,
+      "measured_from_pixels": false
+    },
+    "epoch_0": {
+      "epoch_jyear": 2025.354,
+      "ra": 331.095642,
+      "dec": -56.800336,
+      "x": 35.3305,
+      "y": 35.1844,
+      "shift_arcsec": 0.0,
+      "shift_arcsec_from_epoch_0": 0.0,
+      "step_shift_arcsec": 0.0,
+      "measured_from_pixels": true,
+      "centroid_detector": "D2"
+    },
+    "epoch_1": {
+      "epoch_jyear": 2025.776,
+      "ra": 331.096524,
+      "dec": -56.800721,
+      "x": 35.0501,
+      "y": 34.9608,
+      "shift_arcsec": 2.223,
+      "shift_arcsec_from_epoch_0": 2.223,
+      "step_shift_arcsec": 2.223,
+      "measured_from_pixels": true,
+      "centroid_detector": "D2"
+    },
+    "epoch_2": {
+      "epoch_jyear": 2026.313,
+      "ra": 331.09765,
+      "dec": -56.800904,
+      "x": 34.6919,
+      "y": 34.8545,
+      "shift_arcsec": 4.456,
+      "shift_arcsec_from_epoch_0": 4.456,
+      "step_shift_arcsec": 2.317,
+      "measured_from_pixels": true,
+      "centroid_detector": "D2"
+    },
+    "epoch_3": {
+      "epoch_jyear": 2026.739,
+      "ra": 331.097892,
+      "dec": -56.801301,
+      "x": 34.6152,
+      "y": 34.6237,
+      "shift_arcsec": 5.635,
+      "shift_arcsec_from_epoch_0": 5.635,
+      "step_shift_arcsec": 1.508,
+      "measured_from_pixels": true,
+      "centroid_detector": "D2"
+    }
+  },
+  "wcs": {
+    "crpix": [
+      36.0,
+      36.0
+    ],
+    "cdelt": [
+      -0.0017222222222222222,
+      0.0017222222222222222
+    ],
+    "crval": [
+      331.09668131906733,
+      -56.800653424581306
+    ],
+    "ctype": [
+      "RA---TAN",
+      "DEC--TAN"
+    ],
+    "pixel_scale_arcsec": 6.2,
+    "width": 71,
+    "height": 71,
+    "fov_deg": 0.12,
+    "north_up": true,
+    "east_left": true
+  },
+  "total_overlapping_visits": 458,
+  "sampled_cutouts_count": 87,
+  "epochs_summary": [
+    {
+      "epoch_index": 0,
+      "epoch_id": "epoch_0",
+      "mean_mjd": 60804.92234726272,
+      "mean_iso": "2025-05-09",
+      "min_iso": "2025-04-24",
+      "max_iso": "2025-06-10",
+      "mean_jyear": 2025.354,
+      "total_visits": 118
+    },
+    {
+      "epoch_index": 1,
+      "epoch_id": "epoch_1",
+      "mean_mjd": 60959.26489114384,
+      "mean_iso": "2025-10-11",
+      "min_iso": "2025-09-28",
+      "max_iso": "2025-11-12",
+      "mean_jyear": 2025.776,
+      "total_visits": 146
+    },
+    {
+      "epoch_index": 2,
+      "epoch_id": "epoch_2",
+      "mean_mjd": 61155.17480283783,
+      "mean_iso": "2026-04-25",
+      "min_iso": "2026-04-18",
+      "max_iso": "2026-05-04",
+      "mean_jyear": 2026.313,
+      "total_visits": 74
+    },
+    {
+      "epoch_index": 3,
+      "epoch_id": "epoch_3",
+      "mean_mjd": 61310.82847008334,
+      "mean_iso": "2026-09-27",
+      "min_iso": "2026-09-22",
+      "max_iso": "2026-10-02",
+      "mean_jyear": 2026.739,
+      "total_visits": 120
+    }
+  ],
+  "detectors": {
+    "D1": {
+      "detector": "D1",
+      "wavelength_range_um": [
+        0.75,
+        1.09
+      ],
+      "spectral_resolution_R": 39,
+      "label": "0.75 - 1.09 \u00b5m",
+      "measured_central_wavelength_um": 0.95,
+      "norm_vmin": -0.1648,
+      "norm_vmax": 1.0253,
+      "diff_abs_max": 1.5447,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 3,
+          "total_visits_in_epoch": 3,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D1_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 21,
+            "bad_pixels": 331,
+            "contaminated_pixels": 2633
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 24,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D1_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 3,
+            "bad_pixels": 584,
+            "contaminated_pixels": 1146
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D1_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 1,
+            "bad_pixels": 252,
+            "contaminated_pixels": 734
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D1_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D1_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D1_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 25,
+        "bad_pixels": 1070,
+        "contaminated_pixels": 3260
+      }
+    },
+    "D2": {
+      "detector": "D2",
+      "wavelength_range_um": [
+        1.1,
+        1.62
+      ],
+      "spectral_resolution_R": 41,
+      "label": "1.10 - 1.62 \u00b5m",
+      "measured_central_wavelength_um": 1.3164,
+      "norm_vmin": -0.084,
+      "norm_vmax": 1.165,
+      "diff_abs_max": 0.3761,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 32,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D2_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 3,
+            "bad_pixels": 321,
+            "contaminated_pixels": 783
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 30,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D2_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 3,
+            "bad_pixels": 499,
+            "contaminated_pixels": 891
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 7,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D2_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 1,
+            "bad_pixels": 178,
+            "contaminated_pixels": 257
+          }
+        },
+        {
+          "epoch_index": 3,
+          "epoch_id": "epoch_3",
+          "mean_mjd": 61310.82847008334,
+          "mean_iso": "2026-09-27",
+          "min_iso": "2026-09-22",
+          "max_iso": "2026-10-02",
+          "mean_jyear": 2026.739,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 24,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_3.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_epoch_3_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D2_epoch_3.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 1,
+            "bad_pixels": 212,
+            "contaminated_pixels": 448
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D2_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D2_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D2_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 8,
+        "bad_pixels": 1085,
+        "contaminated_pixels": 1930
+      }
+    },
+    "D3": {
+      "detector": "D3",
+      "wavelength_range_um": [
+        1.63,
+        2.41
+      ],
+      "spectral_resolution_R": 41,
+      "label": "1.63 - 2.41 \u00b5m",
+      "measured_central_wavelength_um": 1.9253,
+      "norm_vmin": -0.0244,
+      "norm_vmax": 1.1058,
+      "diff_abs_max": 0.3547,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 25,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D3_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 1,
+            "bad_pixels": 194,
+            "contaminated_pixels": 332
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 23,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D3_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 0,
+            "bad_pixels": 504,
+            "contaminated_pixels": 1075
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 12,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D3_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 0,
+            "bad_pixels": 282,
+            "contaminated_pixels": 530
+          }
+        },
+        {
+          "epoch_index": 3,
+          "epoch_id": "epoch_3",
+          "mean_mjd": 61310.82847008334,
+          "mean_iso": "2026-09-27",
+          "min_iso": "2026-09-22",
+          "max_iso": "2026-10-02",
+          "mean_jyear": 2026.739,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 36,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_3.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_epoch_3_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D3_epoch_3.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 4,
+            "bad_pixels": 129,
+            "contaminated_pixels": 220
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D3_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D3_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D3_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 5,
+        "bad_pixels": 1036,
+        "contaminated_pixels": 1840
+      }
+    },
+    "D4": {
+      "detector": "D4",
+      "wavelength_range_um": [
+        2.42,
+        3.82
+      ],
+      "spectral_resolution_R": 35,
+      "label": "2.42 - 3.82 \u00b5m",
+      "measured_central_wavelength_um": 3.092,
+      "norm_vmin": -0.0184,
+      "norm_vmax": 0.6329,
+      "diff_abs_max": 0.2578,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 4,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D4_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 8,
+            "bad_pixels": 666,
+            "contaminated_pixels": 3007
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 23,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D4_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 24,
+            "bad_pixels": 997,
+            "contaminated_pixels": 1574
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D4_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 5,
+            "bad_pixels": 612,
+            "contaminated_pixels": 911
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D4_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D4_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D4_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 36,
+        "bad_pixels": 1862,
+        "contaminated_pixels": 3647
+      }
+    },
+    "D5": {
+      "detector": "D5",
+      "wavelength_range_um": [
+        3.83,
+        4.41
+      ],
+      "spectral_resolution_R": 112,
+      "label": "3.83 - 4.41 \u00b5m",
+      "measured_central_wavelength_um": 4.0733,
+      "norm_vmin": -0.0156,
+      "norm_vmax": 0.521,
+      "diff_abs_max": 0.2428,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 30,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D5_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 6,
+            "bad_pixels": 308,
+            "contaminated_pixels": 541
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 24,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D5_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 5,
+            "bad_pixels": 481,
+            "contaminated_pixels": 914
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 6,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D5_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 13,
+            "bad_pixels": 398,
+            "contaminated_pixels": 743
+          }
+        },
+        {
+          "epoch_index": 3,
+          "epoch_id": "epoch_3",
+          "mean_mjd": 61310.82847008334,
+          "mean_iso": "2026-09-27",
+          "min_iso": "2026-09-22",
+          "max_iso": "2026-10-02",
+          "mean_jyear": 2026.739,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 24,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_3.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_epoch_3_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D5_epoch_3.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 4,
+            "bad_pixels": 476,
+            "contaminated_pixels": 1261
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D5_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D5_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D5_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 28,
+        "bad_pixels": 1425,
+        "contaminated_pixels": 2552
+      }
+    },
+    "D6": {
+      "detector": "D6",
+      "wavelength_range_um": [
+        4.42,
+        5.0
+      ],
+      "spectral_resolution_R": 128,
+      "label": "4.42 - 5.00 \u00b5m",
+      "measured_central_wavelength_um": 4.6762,
+      "norm_vmin": -0.0268,
+      "norm_vmax": 0.3351,
+      "diff_abs_max": 0.1214,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 24,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D6_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 4,
+            "bad_pixels": 401,
+            "contaminated_pixels": 368
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 22,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D6_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 7,
+            "bad_pixels": 541,
+            "contaminated_pixels": 734
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 11,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D6_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 15,
+            "bad_pixels": 668,
+            "contaminated_pixels": 973
+          }
+        },
+        {
+          "epoch_index": 3,
+          "epoch_id": "epoch_3",
+          "mean_mjd": 61310.82847008334,
+          "mean_iso": "2026-09-27",
+          "min_iso": "2026-09-22",
+          "max_iso": "2026-10-02",
+          "mean_jyear": 2026.739,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 36,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_3.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_epoch_3_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D6_epoch_3.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 9,
+            "bad_pixels": 268,
+            "contaminated_pixels": 242
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/D6_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D6_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/D6_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 35,
+        "bad_pixels": 1564,
+        "contaminated_pixels": 1958
+      }
+    },
+    "ALL": {
+      "detector": "ALL",
+      "wavelength_range_um": [
+        0.75,
+        5.0
+      ],
+      "spectral_resolution_R": null,
+      "label": "0.75 - 5.00 \u00b5m (All Detectors)",
+      "measured_central_wavelength_um": 2.875,
+      "norm_vmin": -0.0433,
+      "norm_vmax": 0.758,
+      "diff_abs_max": 0.4197,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 23,
+          "total_visits_in_epoch": 118,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 43,
+            "bad_pixels": 1828,
+            "contaminated_pixels": 3700
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 146,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 40,
+            "bad_pixels": 2532,
+            "contaminated_pixels": 3490
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 74,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 34,
+            "bad_pixels": 1856,
+            "contaminated_pixels": 2850
+          }
+        },
+        {
+          "epoch_index": 3,
+          "epoch_id": "epoch_3",
+          "mean_mjd": 61310.82847008334,
+          "mean_iso": "2026-09-27",
+          "min_iso": "2026-09-22",
+          "max_iso": "2026-10-02",
+          "mean_jyear": 2026.739,
+          "visits_coadded": 16,
+          "total_visits_in_epoch": 120,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_3.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_3_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_3.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 18,
+            "bad_pixels": 998,
+            "contaminated_pixels": 1849
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 131,
+        "bad_pixels": 3833,
+        "contaminated_pixels": 4271
+      }
+    },
+    "RGB": {
+      "detector": "RGB",
+      "wavelength_range_um": [
+        1.1,
+        5.0
+      ],
+      "spectral_resolution_R": null,
+      "label": "False-Color IR RGB (R=D6, G=D4, B=D2)",
+      "measured_central_wavelength_um": 3.05,
+      "norm_vmin": -0.0268,
+      "norm_vmax": 0.3351,
+      "diff_abs_max": 0.1214,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60804.92234726272,
+          "mean_iso": "2025-05-09",
+          "min_iso": "2025-04-24",
+          "max_iso": "2025-06-10",
+          "mean_jyear": 2025.354,
+          "visits_coadded": 23,
+          "total_visits_in_epoch": 118,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/RGB_epoch_0.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_0_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 43,
+            "bad_pixels": 1828,
+            "contaminated_pixels": 3700
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 60959.26489114384,
+          "mean_iso": "2025-10-11",
+          "min_iso": "2025-09-28",
+          "max_iso": "2025-11-12",
+          "mean_jyear": 2025.776,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 146,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/RGB_epoch_1.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_1_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 40,
+            "bad_pixels": 2532,
+            "contaminated_pixels": 3490
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61155.17480283783,
+          "mean_iso": "2026-04-25",
+          "min_iso": "2026-04-18",
+          "max_iso": "2026-05-04",
+          "mean_jyear": 2026.313,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 74,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/RGB_epoch_2.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_2_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 34,
+            "bad_pixels": 1856,
+            "contaminated_pixels": 2850
+          }
+        },
+        {
+          "epoch_index": 3,
+          "epoch_id": "epoch_3",
+          "mean_mjd": 61310.82847008334,
+          "mean_iso": "2026-09-27",
+          "min_iso": "2026-09-22",
+          "max_iso": "2026-10-02",
+          "mean_jyear": 2026.739,
+          "visits_coadded": 16,
+          "total_visits_in_epoch": 120,
+          "image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/RGB_epoch_3.png",
+          "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_epoch_3_flags.png",
+          "grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_epoch_3.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 18,
+            "bad_pixels": 998,
+            "contaminated_pixels": 1849
+          }
+        }
+      ],
+      "diff_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/RGB_diff.png",
+      "sum_image_url": "/cache/epsilon_indi_b_fov0p120_v4/images/RGB_sum.png",
+      "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/ALL_flags_overlay.png",
+      "diff_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_diff.npy.gz",
+      "sum_grid_url": "/cache/epsilon_indi_b_fov0p120_v4/grids/ALL_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 131,
+        "bad_pixels": 3833,
+        "contaminated_pixels": 4271
+      }
+    }
+  },
+  "flags_overlay_url": "/cache/epsilon_indi_b_fov0p120_v4/images/flags_overlay.png",
+  "gaia_dr3_sources": [
+    {
+      "source_id": "6412596458823395328",
+      "ra_j2016": 331.12955733329,
+      "dec_j2016": -56.77475337901,
+      "ra": 331.1294218486606,
+      "dec": -56.77480524441116,
+      "x": 24.583,
+      "y": 50.006,
+      "pmra_mas_yr": -26.604,
+      "pmdec_mas_yr": -18.587,
+      "gmag": 12.953572273254395,
+      "bp_rp": 0.9742249846458435,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1294311749999,
+          "dec": -56.774801674168,
+          "x": 24.581,
+          "y": 50.008
+        },
+        "epoch_1": {
+          "ra": 331.12942548343807,
+          "dec": -56.77480385297157,
+          "x": 24.582,
+          "y": 50.007
+        },
+        "epoch_2": {
+          "ra": 331.12941824085715,
+          "dec": -56.774806625524555,
+          "x": 24.585,
+          "y": 50.005
+        },
+        "epoch_3": {
+          "ra": 331.12941249534526,
+          "dec": -56.7748088249797,
+          "x": 24.586,
+          "y": 50.004
+        }
+      }
+    },
+    {
+      "source_id": "6412594259800093568",
+      "ra_j2016": 331.05421275123,
+      "dec_j2016": -56.8616539362,
+      "ra": 331.0543312002181,
+      "dec": -56.86165425704188,
+      "x": 48.443,
+      "y": -0.424,
+      "pmra_mas_yr": 23.205,
+      "pmdec_mas_yr": -0.115,
+      "gmag": 12.961528778076172,
+      "bp_rp": 0.7574679851531982,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05432304656955,
+          "dec": -56.861654234959744,
+          "x": 48.445,
+          "y": -0.424
+        },
+        "epoch_1": {
+          "ra": 331.0543280224765,
+          "dec": -56.86165424843581,
+          "x": 48.444,
+          "y": -0.424
+        },
+        "epoch_2": {
+          "ra": 331.0543343543771,
+          "dec": -56.861654265583994,
+          "x": 48.442,
+          "y": -0.424
+        },
+        "epoch_3": {
+          "ra": 331.0543393774491,
+          "dec": -56.86165427918735,
+          "x": 48.44,
+          "y": -0.424
+        }
+      }
+    },
+    {
+      "source_id": "6412593435166417536",
+      "ra_j2016": 331.17188294203,
+      "dec_j2016": -56.79333744618,
+      "ra": 331.1718818363812,
+      "dec": -56.79332257325916,
+      "x": 11.086,
+      "y": 39.243,
+      "pmra_mas_yr": -0.217,
+      "pmdec_mas_yr": 5.33,
+      "gmag": 13.931794166564941,
+      "bp_rp": 0.761135995388031,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1718819124905,
+          "dec": -56.79332359706333,
+          "x": 11.086,
+          "y": 39.243
+        },
+        "epoch_1": {
+          "ra": 331.17188186604346,
+          "dec": -56.79332297226888,
+          "x": 11.086,
+          "y": 39.243
+        },
+        "epoch_2": {
+          "ra": 331.1718818069391,
+          "dec": -56.79332217721055,
+          "x": 11.087,
+          "y": 39.244
+        },
+        "epoch_3": {
+          "ra": 331.1718817600518,
+          "dec": -56.793321546493885,
+          "x": 11.087,
+          "y": 39.244
+        }
+      }
+    },
+    {
+      "source_id": "6412591854618382592",
+      "ra_j2016": 331.18449698558,
+      "dec_j2016": -56.86521326164,
+      "ra": 331.18459631768803,
+      "dec": -56.86524309394517,
+      "x": 7.097,
+      "y": -2.522,
+      "pmra_mas_yr": 19.458,
+      "pmdec_mas_yr": -10.691,
+      "gmag": 14.618030548095703,
+      "bp_rp": 1.1643630266189575,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1845894799792,
+          "dec": -56.86524104038749,
+          "x": 7.099,
+          "y": -2.52
+        },
+        "epoch_1": {
+          "ra": 331.1845936528108,
+          "dec": -56.86524229360711,
+          "x": 7.098,
+          "y": -2.521
+        },
+        "epoch_2": {
+          "ra": 331.18459896278887,
+          "dec": -56.865243888343734,
+          "x": 7.096,
+          "y": -2.522
+        },
+        "epoch_3": {
+          "ra": 331.184603175174,
+          "dec": -56.8652451534419,
+          "x": 7.095,
+          "y": -2.523
+        }
+      }
+    },
+    {
+      "source_id": "6412596836780520448",
+      "ra_j2016": 331.07835471816,
+      "dec_j2016": -56.72392728172,
+      "ra": 331.0784058044397,
+      "dec": -56.72387913865081,
+      "x": 40.822,
+      "y": 79.578,
+      "pmra_mas_yr": 10.045,
+      "pmdec_mas_yr": 17.253,
+      "gmag": 14.79889965057373,
+      "bp_rp": 1.2985039949417114,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.07840228782817,
+          "dec": -56.723882452665954,
+          "x": 40.823,
+          "y": 79.576
+        },
+        "epoch_1": {
+          "ra": 331.07840443390205,
+          "dec": -56.72388043023011,
+          "x": 40.823,
+          "y": 79.577
+        },
+        "epoch_2": {
+          "ra": 331.07840716480615,
+          "dec": -56.72387785665649,
+          "x": 40.822,
+          "y": 79.579
+        },
+        "epoch_3": {
+          "ra": 331.07840933122145,
+          "dec": -56.72387581505056,
+          "x": 40.821,
+          "y": 79.58
+        }
+      }
+    },
+    {
+      "source_id": "6412617143385890432",
+      "ra_j2016": 331.17177000936,
+      "dec_j2016": -56.73159118358,
+      "ra": 331.17173729111573,
+      "dec": -56.73163736218113,
+      "x": 11.093,
+      "y": 75.061,
+      "pmra_mas_yr": -6.432,
+      "pmdec_mas_yr": -16.549,
+      "gmag": 14.920331954956055,
+      "bp_rp": 0.9600679874420166,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.17173954333737,
+          "dec": -56.731634183394625,
+          "x": 11.092,
+          "y": 75.063
+        },
+        "epoch_1": {
+          "ra": 331.1717381688797,
+          "dec": -56.731636123304824,
+          "x": 11.093,
+          "y": 75.061
+        },
+        "epoch_2": {
+          "ra": 331.17173641986585,
+          "dec": -56.73163859186354,
+          "x": 11.093,
+          "y": 75.06
+        },
+        "epoch_3": {
+          "ra": 331.1717350323798,
+          "dec": -56.731640550161494,
+          "x": 11.094,
+          "y": 75.059
+        }
+      }
+    },
+    {
+      "source_id": "6412597008579272704",
+      "ra_j2016": 331.00364882948,
+      "dec_j2016": -56.7629836612,
+      "ra": 331.0036468185202,
+      "dec": -56.76298208182416,
+      "x": 64.609,
+      "y": 56.854,
+      "pmra_mas_yr": -0.395,
+      "pmdec_mas_yr": 0.566,
+      "gmag": 15.212986946105957,
+      "bp_rp": 1.120373010635376,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0036469569482,
+          "dec": -56.762982190543326,
+          "x": 64.609,
+          "y": 56.854
+        },
+        "epoch_1": {
+          "ra": 331.0036468724701,
+          "dec": -56.76298212419555,
+          "x": 64.609,
+          "y": 56.854
+        },
+        "epoch_2": {
+          "ra": 331.0036467649707,
+          "dec": -56.762982039767216,
+          "x": 64.609,
+          "y": 56.854
+        },
+        "epoch_3": {
+          "ra": 331.00364667969177,
+          "dec": -56.76298197279054,
+          "x": 64.609,
+          "y": 56.854
+        }
+      }
+    },
+    {
+      "source_id": "6412596390103981824",
+      "ra_j2016": 331.03879857399,
+      "dec_j2016": -56.76010974584,
+      "ra": 331.0388189264187,
+      "dec": -56.76014217048001,
+      "x": 53.416,
+      "y": 58.515,
+      "pmra_mas_yr": 3.998,
+      "pmdec_mas_yr": -11.62,
+      "gmag": 15.341987609863281,
+      "bp_rp": 1.1299420595169067,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0388175254217,
+          "dec": -56.760139938471895,
+          "x": 53.417,
+          "y": 58.516
+        },
+        "epoch_1": {
+          "ra": 331.0388183804046,
+          "dec": -56.76014130059399,
+          "x": 53.416,
+          "y": 58.515
+        },
+        "epoch_2": {
+          "ra": 331.0388194683808,
+          "dec": -56.760143033910474,
+          "x": 53.416,
+          "y": 58.514
+        },
+        "epoch_3": {
+          "ra": 331.038820331468,
+          "dec": -56.76014440894367,
+          "x": 53.416,
+          "y": 58.514
+        }
+      }
+    },
+    {
+      "source_id": "6412594672117008128",
+      "ra_j2016": 331.02098353158,
+      "dec_j2016": -56.81396938911,
+      "ra": 331.0209569048748,
+      "dec": -56.81403533223383,
+      "x": 59.067,
+      "y": 27.217,
+      "pmra_mas_yr": -5.223,
+      "pmdec_mas_yr": -23.632,
+      "gmag": 15.728761672973633,
+      "bp_rp": 1.6083630323410034,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0209587377748,
+          "dec": -56.814030792920875,
+          "x": 59.066,
+          "y": 27.219
+        },
+        "epoch_1": {
+          "ra": 331.0209576192155,
+          "dec": -56.8140335631162,
+          "x": 59.067,
+          "y": 27.218
+        },
+        "epoch_2": {
+          "ra": 331.0209561958353,
+          "dec": -56.81403708822256,
+          "x": 59.067,
+          "y": 27.216
+        },
+        "epoch_3": {
+          "ra": 331.02095506667314,
+          "dec": -56.81403988467565,
+          "x": 59.067,
+          "y": 27.214
+        }
+      }
+    },
+    {
+      "source_id": "6412596183945494144",
+      "ra_j2016": 331.0433598116,
+      "dec_j2016": -56.79947281013,
+      "ra": 331.043319252578,
+      "dec": -56.79949787922676,
+      "x": 51.966,
+      "y": 35.664,
+      "pmra_mas_yr": -7.959,
+      "pmdec_mas_yr": -8.984,
+      "gmag": 15.765997886657715,
+      "bp_rp": 1.4021539688110352,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0433220445327,
+          "dec": -56.79949615355097,
+          "x": 51.965,
+          "y": 35.665
+        },
+        "epoch_1": {
+          "ra": 331.0433203406934,
+          "dec": -56.799497206674886,
+          "x": 51.966,
+          "y": 35.665
+        },
+        "epoch_2": {
+          "ra": 331.04331817253757,
+          "dec": -56.79949854678752,
+          "x": 51.967,
+          "y": 35.664
+        },
+        "epoch_3": {
+          "ra": 331.04331645254797,
+          "dec": -56.799499609893594,
+          "x": 51.967,
+          "y": 35.663
+        }
+      }
+    },
+    {
+      "source_id": "6412595973491218944",
+      "ra_j2016": 331.06168268134,
+      "dec_j2016": -56.80007191274,
+      "ra": 331.06168239086384,
+      "dec": -56.800071354656666,
+      "x": 46.128,
+      "y": 35.335,
+      "pmra_mas_yr": -0.057,
+      "pmdec_mas_yr": 0.2,
+      "gmag": 15.813785552978516,
+      "bp_rp": 1.1844580173492432,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.06168241085925,
+          "dec": -56.80007139307334,
+          "x": 46.128,
+          "y": 35.335
+        },
+        "epoch_1": {
+          "ra": 331.0616823986567,
+          "dec": -56.800071369628895,
+          "x": 46.128,
+          "y": 35.335
+        },
+        "epoch_2": {
+          "ra": 331.0616823831288,
+          "dec": -56.80007133979556,
+          "x": 46.128,
+          "y": 35.335
+        },
+        "epoch_3": {
+          "ra": 331.0616823708106,
+          "dec": -56.80007131612889,
+          "x": 46.128,
+          "y": 35.335
+        }
+      }
+    },
+    {
+      "source_id": "6412594740836485888",
+      "ra_j2016": 331.00555060157,
+      "dec_j2016": -56.81244265658,
+      "ra": 331.00560699296034,
+      "dec": -56.81246008271937,
+      "x": 63.947,
+      "y": 28.125,
+      "pmra_mas_yr": 11.062,
+      "pmdec_mas_yr": -6.245,
+      "gmag": 15.995610237121582,
+      "bp_rp": 0.9457600116729736,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.00560311115623,
+          "dec": -56.81245888316065,
+          "x": 63.948,
+          "y": 28.126
+        },
+        "epoch_1": {
+          "ra": 331.00560548009526,
+          "dec": -56.812459615212404,
+          "x": 63.947,
+          "y": 28.126
+        },
+        "epoch_2": {
+          "ra": 331.0056084945983,
+          "dec": -56.81246054675688,
+          "x": 63.946,
+          "y": 28.125
+        },
+        "epoch_3": {
+          "ra": 331.0056108859919,
+          "dec": -56.81246128574742,
+          "x": 63.945,
+          "y": 28.125
+        }
+      }
+    },
+    {
+      "source_id": "6412594706476744832",
+      "ra_j2016": 331.03649555599,
+      "dec_j2016": -56.814680747,
+      "ra": 331.03645682089956,
+      "dec": -56.81471529235233,
+      "x": 54.14,
+      "y": 26.827,
+      "pmra_mas_yr": -7.598,
+      "pmdec_mas_yr": -12.38,
+      "gmag": 16.04521369934082,
+      "bp_rp": 1.0624359846115112,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0364594873013,
+          "dec": -56.814712914361465,
+          "x": 54.139,
+          "y": 26.828
+        },
+        "epoch_1": {
+          "ra": 331.0364578600829,
+          "dec": -56.8147143655721,
+          "x": 54.14,
+          "y": 26.827
+        },
+        "epoch_2": {
+          "ra": 331.03645578942815,
+          "dec": -56.81471621225479,
+          "x": 54.141,
+          "y": 26.826
+        },
+        "epoch_3": {
+          "ra": 331.0364541467857,
+          "dec": -56.814717677220926,
+          "x": 54.141,
+          "y": 26.825
+        }
+      }
+    },
+    {
+      "source_id": "6412594775196223488",
+      "ra_j2016": 331.01376505485,
+      "dec_j2016": -56.80270630424,
+      "ra": 331.01375402617373,
+      "dec": -56.802706234479096,
+      "x": 61.364,
+      "y": 33.792,
+      "pmra_mas_yr": -2.164,
+      "pmdec_mas_yr": 0.025,
+      "gmag": 16.164653778076172,
+      "bp_rp": 1.197376012802124,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0137547853524,
+          "dec": -56.80270623928124,
+          "x": 61.364,
+          "y": 33.792
+        },
+        "epoch_1": {
+          "ra": 331.0137543220503,
+          "dec": -56.80270623635065,
+          "x": 61.364,
+          "y": 33.792
+        },
+        "epoch_2": {
+          "ra": 331.0137537324929,
+          "dec": -56.80270623262143,
+          "x": 61.364,
+          "y": 33.792
+        },
+        "epoch_3": {
+          "ra": 331.0137532647993,
+          "dec": -56.80270622966306,
+          "x": 61.364,
+          "y": 33.792
+        }
+      }
+    },
+    {
+      "source_id": "6412594397239098752",
+      "ra_j2016": 331.05997073083,
+      "dec_j2016": -56.83930357018,
+      "ra": 331.0599026727429,
+      "dec": -56.839386660398574,
+      "x": 46.681,
+      "y": 12.507,
+      "pmra_mas_yr": -13.341,
+      "pmdec_mas_yr": -29.777,
+      "gmag": 16.19563102722168,
+      "bp_rp": 0.7803459763526917,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05990735765306,
+          "dec": -56.83938094073562,
+          "x": 46.68,
+          "y": 12.51
+        },
+        "epoch_1": {
+          "ra": 331.0599044986047,
+          "dec": -56.83938443126025,
+          "x": 46.681,
+          "y": 12.508
+        },
+        "epoch_2": {
+          "ra": 331.05990086043096,
+          "dec": -56.8393888729941,
+          "x": 46.682,
+          "y": 12.505
+        },
+        "epoch_3": {
+          "ra": 331.0598979742814,
+          "dec": -56.839392396604126,
+          "x": 46.683,
+          "y": 12.503
+        }
+      }
+    },
+    {
+      "source_id": "6412591300566744832",
+      "ra_j2016": 331.07291958845,
+      "dec_j2016": -56.8773302574,
+      "ra": 331.07295901652134,
+      "dec": -56.87734217805378,
+      "x": 42.527,
+      "y": -9.53,
+      "pmra_mas_yr": 7.721,
+      "pmdec_mas_yr": -4.272,
+      "gmag": 16.198688507080078,
+      "bp_rp": 0.6862589716911316,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0729563024186,
+          "dec": -56.877341357474606,
+          "x": 42.528,
+          "y": -9.53
+        },
+        "epoch_1": {
+          "ra": 331.0729579587474,
+          "dec": -56.87734185824745,
+          "x": 42.527,
+          "y": -9.53
+        },
+        "epoch_2": {
+          "ra": 331.0729600664455,
+          "dec": -56.87734249548678,
+          "x": 42.526,
+          "y": -9.53
+        },
+        "epoch_3": {
+          "ra": 331.07296173847413,
+          "dec": -56.877343001006224,
+          "x": 42.526,
+          "y": -9.531
+        }
+      }
+    },
+    {
+      "source_id": "6412592713611866496",
+      "ra_j2016": 331.16730588346,
+      "dec_j2016": -56.84604195289,
+      "ra": 331.16739202101957,
+      "dec": -56.84605038549952,
+      "x": 12.546,
+      "y": 8.629,
+      "pmra_mas_yr": 16.882,
+      "pmdec_mas_yr": -3.022,
+      "gmag": 16.249034881591797,
+      "bp_rp": 0.9590100049972534,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.167386091585,
+          "dec": -56.846049805027626,
+          "x": 12.548,
+          "y": 8.629
+        },
+        "epoch_1": {
+          "ra": 331.16738971012643,
+          "dec": -56.8460501592708,
+          "x": 12.547,
+          "y": 8.629
+        },
+        "epoch_2": {
+          "ra": 331.1673943147633,
+          "dec": -56.8460506100493,
+          "x": 12.545,
+          "y": 8.629
+        },
+        "epoch_3": {
+          "ra": 331.1673979676038,
+          "dec": -56.84605096765,
+          "x": 12.544,
+          "y": 8.629
+        }
+      }
+    },
+    {
+      "source_id": "6412594637757272192",
+      "ra_j2016": 330.98282639591,
+      "dec_j2016": -56.80892501834,
+      "ra": 330.98283087641823,
+      "dec": -56.80894366948492,
+      "x": 71.189,
+      "y": 30.156,
+      "pmra_mas_yr": 0.879,
+      "pmdec_mas_yr": -6.684,
+      "gmag": 16.301494598388672,
+      "bp_rp": 0.8356710076332092,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.98283056799426,
+          "dec": -56.80894238559993,
+          "x": 71.189,
+          "y": 30.157
+        },
+        "epoch_1": {
+          "ra": 330.98283075621544,
+          "dec": -56.808943169113256,
+          "x": 71.189,
+          "y": 30.157
+        },
+        "epoch_2": {
+          "ra": 330.98283099572905,
+          "dec": -56.80894416614325,
+          "x": 71.189,
+          "y": 30.156
+        },
+        "epoch_3": {
+          "ra": 330.98283118573426,
+          "dec": -56.80894495708324,
+          "x": 71.189,
+          "y": 30.155
+        }
+      }
+    },
+    {
+      "source_id": "6412596493183196544",
+      "ra_j2016": 331.14437025419,
+      "dec_j2016": -56.75359492588,
+      "ra": 331.14439138182246,
+      "dec": -56.753626069718635,
+      "x": 19.812,
+      "y": 62.301,
+      "pmra_mas_yr": 4.151,
+      "pmdec_mas_yr": -11.161,
+      "gmag": 16.37212562561035,
+      "bp_rp": 0.7079280018806458,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.14438992746284,
+          "dec": -56.75362392587679,
+          "x": 19.813,
+          "y": 62.302
+        },
+        "epoch_1": {
+          "ra": 331.14439081501126,
+          "dec": -56.75362523419387,
+          "x": 19.812,
+          "y": 62.301
+        },
+        "epoch_2": {
+          "ra": 331.14439194442724,
+          "dec": -56.75362689904285,
+          "x": 19.812,
+          "y": 62.3
+        },
+        "epoch_3": {
+          "ra": 331.14439284038855,
+          "dec": -56.75362821976102,
+          "x": 19.812,
+          "y": 62.3
+        }
+      }
+    },
+    {
+      "source_id": "6412594362879363328",
+      "ra_j2016": 331.01954681125,
+      "dec_j2016": -56.83856102669,
+      "ra": 331.0195937382471,
+      "dec": -56.838592901610795,
+      "x": 59.484,
+      "y": 12.957,
+      "pmra_mas_yr": 9.199,
+      "pmdec_mas_yr": -11.423,
+      "gmag": 16.414278030395508,
+      "bp_rp": 0.812578022480011,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0195905079406,
+          "dec": -56.83859070744404,
+          "x": 59.485,
+          "y": 12.958
+        },
+        "epoch_1": {
+          "ra": 331.01959247929176,
+          "dec": -56.83859204647278,
+          "x": 59.484,
+          "y": 12.957
+        },
+        "epoch_2": {
+          "ra": 331.01959498785965,
+          "dec": -56.83859375040268,
+          "x": 59.484,
+          "y": 12.956
+        },
+        "epoch_3": {
+          "ra": 331.019596977897,
+          "dec": -56.838595102123556,
+          "x": 59.483,
+          "y": 12.956
+        }
+      }
+    },
+    {
+      "source_id": "6412593155992667136",
+      "ra_j2016": 331.19887746588,
+      "dec_j2016": -56.81010216372,
+      "ra": 331.19893303306435,
+      "dec": -56.81012177475599,
+      "x": 2.499,
+      "y": 29.478,
+      "pmra_mas_yr": 10.901,
+      "pmdec_mas_yr": -7.028,
+      "gmag": 16.767908096313477,
+      "bp_rp": 0.8686500191688538,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.19892920799566,
+          "dec": -56.81012042479597,
+          "x": 2.5,
+          "y": 29.479
+        },
+        "epoch_1": {
+          "ra": 331.19893154231085,
+          "dec": -56.81012124863276,
+          "x": 2.499,
+          "y": 29.478
+        },
+        "epoch_2": {
+          "ra": 331.1989345127547,
+          "dec": -56.81012229697477,
+          "x": 2.498,
+          "y": 29.478
+        },
+        "epoch_3": {
+          "ra": 331.1989368691963,
+          "dec": -56.81012312862035,
+          "x": 2.498,
+          "y": 29.477
+        }
+      }
+    },
+    {
+      "source_id": "6412597111658433152",
+      "ra_j2016": 330.99390950129,
+      "dec_j2016": -56.75445205302,
+      "ra": 330.9939429316614,
+      "dec": -56.754487396433035,
+      "x": 67.704,
+      "y": 61.782,
+      "pmra_mas_yr": 6.568,
+      "pmdec_mas_yr": -12.666,
+      "gmag": 17.04863739013672,
+      "bp_rp": 1.1004619598388672,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.9939406304199,
+          "dec": -56.75448496350612,
+          "x": 67.705,
+          "y": 61.783
+        },
+        "epoch_1": {
+          "ra": 330.99394203479284,
+          "dec": -56.75448644824244,
+          "x": 67.705,
+          "y": 61.782
+        },
+        "epoch_2": {
+          "ra": 330.99394382187427,
+          "dec": -56.754488337586956,
+          "x": 67.704,
+          "y": 61.781
+        },
+        "epoch_3": {
+          "ra": 330.99394523955914,
+          "dec": -56.75448983639655,
+          "x": 67.704,
+          "y": 61.78
+        }
+      }
+    },
+    {
+      "source_id": "6412596149585753472",
+      "ra_j2016": 331.08510452036,
+      "dec_j2016": -56.76355578158,
+      "ra": 331.08511534408194,
+      "dec": -56.76359298899537,
+      "x": 38.681,
+      "y": 56.519,
+      "pmra_mas_yr": 2.126,
+      "pmdec_mas_yr": -13.334,
+      "gmag": 17.06512451171875,
+      "bp_rp": 1.3756680488586426,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0851145990109,
+          "dec": -56.76359042775627,
+          "x": 38.681,
+          "y": 56.52
+        },
+        "epoch_1": {
+          "ra": 331.08511505370353,
+          "dec": -56.763591990797345,
+          "x": 38.681,
+          "y": 56.519
+        },
+        "epoch_2": {
+          "ra": 331.08511563230536,
+          "dec": -56.763593979785625,
+          "x": 38.681,
+          "y": 56.518
+        },
+        "epoch_3": {
+          "ra": 331.08511609130795,
+          "dec": -56.76359555764225,
+          "x": 38.681,
+          "y": 56.517
+        }
+      }
+    },
+    {
+      "source_id": "6412595496750730880",
+      "ra_j2016": 330.98598499757,
+      "dec_j2016": -56.7889477716,
+      "ra": 330.98603098620396,
+      "dec": -56.78897156268405,
+      "x": 70.191,
+      "y": 41.755,
+      "pmra_mas_yr": 9.027,
+      "pmdec_mas_yr": -8.526,
+      "gmag": 17.070068359375,
+      "bp_rp": 0.9966089725494385,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.986027820492,
+          "dec": -56.78896992498267,
+          "x": 70.192,
+          "y": 41.756
+        },
+        "epoch_1": {
+          "ra": 330.9860297524232,
+          "dec": -56.788970924418656,
+          "x": 70.191,
+          "y": 41.755
+        },
+        "epoch_2": {
+          "ra": 330.9860322108286,
+          "dec": -56.788972196212754,
+          "x": 70.19,
+          "y": 41.754
+        },
+        "epoch_3": {
+          "ra": 330.9860341610722,
+          "dec": -56.788973205122,
+          "x": 70.189,
+          "y": 41.754
+        }
+      }
+    },
+    {
+      "source_id": "6412596458823395456",
+      "ra_j2016": 331.12821180846,
+      "dec_j2016": -56.77643334155,
+      "ra": 331.1281919513771,
+      "dec": -56.77645772699969,
+      "x": 24.975,
+      "y": 49.047,
+      "pmra_mas_yr": -3.899,
+      "pmdec_mas_yr": -8.739,
+      "gmag": 17.11324119567871,
+      "bp_rp": 0.840025007724762,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.12819331827586,
+          "dec": -56.77645604838364,
+          "x": 24.975,
+          "y": 49.048
+        },
+        "epoch_1": {
+          "ra": 331.128192484102,
+          "dec": -56.77645707278851,
+          "x": 24.975,
+          "y": 49.047
+        },
+        "epoch_2": {
+          "ra": 331.12819142260577,
+          "dec": -56.77645837635584,
+          "x": 24.975,
+          "y": 49.046
+        },
+        "epoch_3": {
+          "ra": 331.1281905805249,
+          "dec": -56.77645941047071,
+          "x": 24.976,
+          "y": 49.046
+        }
+      }
+    },
+    {
+      "source_id": "6412596385808103040",
+      "ra_j2016": 331.04770729751,
+      "dec_j2016": -56.76537543538,
+      "ra": 331.0476868454929,
+      "dec": -56.765403933903755,
+      "x": 50.592,
+      "y": 55.462,
+      "pmra_mas_yr": -4.017,
+      "pmdec_mas_yr": -10.213,
+      "gmag": 17.153993606567383,
+      "bp_rp": 0.6316109895706177,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.04768825334514,
+          "dec": -56.765401972156894,
+          "x": 50.591,
+          "y": 55.463
+        },
+        "epoch_1": {
+          "ra": 331.0476873941787,
+          "dec": -56.76540316934732,
+          "x": 50.591,
+          "y": 55.462
+        },
+        "epoch_2": {
+          "ra": 331.04768630087904,
+          "dec": -56.765404692786305,
+          "x": 50.592,
+          "y": 55.461
+        },
+        "epoch_3": {
+          "ra": 331.04768543356863,
+          "dec": -56.765405901324485,
+          "x": 50.592,
+          "y": 55.461
+        }
+      }
+    },
+    {
+      "source_id": "6412594637757271808",
+      "ra_j2016": 330.99085629346,
+      "dec_j2016": -56.81523077822,
+      "ra": 330.990997562867,
+      "dec": -56.81525990450939,
+      "x": 68.587,
+      "y": 26.493,
+      "pmra_mas_yr": 27.71,
+      "pmdec_mas_yr": -10.438,
+      "gmag": 17.192480087280273,
+      "bp_rp": 1.9770679473876953,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.9909878383271,
+          "dec": -56.815257899554155,
+          "x": 68.591,
+          "y": 26.494
+        },
+        "epoch_1": {
+          "ra": 330.990993772898,
+          "dec": -56.815259123113336,
+          "x": 68.589,
+          "y": 26.493
+        },
+        "epoch_2": {
+          "ra": 330.9910013247103,
+          "dec": -56.81526068010648,
+          "x": 68.586,
+          "y": 26.492
+        },
+        "epoch_3": {
+          "ra": 330.99100731553386,
+          "dec": -56.81526191526272,
+          "x": 68.584,
+          "y": 26.492
+        }
+      }
+    },
+    {
+      "source_id": "6412596832484729600",
+      "ra_j2016": 331.07780630019,
+      "dec_j2016": -56.726081286,
+      "ra": 331.0778036656209,
+      "dec": -56.726086531983306,
+      "x": 41.014,
+      "y": 78.296,
+      "pmra_mas_yr": -0.518,
+      "pmdec_mas_yr": -1.88,
+      "gmag": 17.337326049804688,
+      "bp_rp": 0.7558630108833313,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0778038469762,
+          "dec": -56.72608617086665,
+          "x": 41.014,
+          "y": 78.296
+        },
+        "epoch_1": {
+          "ra": 331.07780373630095,
+          "dec": -56.726086391244415,
+          "x": 41.014,
+          "y": 78.296
+        },
+        "epoch_2": {
+          "ra": 331.0778035954654,
+          "dec": -56.726086671677756,
+          "x": 41.014,
+          "y": 78.296
+        },
+        "epoch_3": {
+          "ra": 331.07780348374104,
+          "dec": -56.726086894144416,
+          "x": 41.014,
+          "y": 78.296
+        }
+      }
+    },
+    {
+      "source_id": "6412593366446939008",
+      "ra_j2016": 331.20211155276,
+      "dec_j2016": -56.7807839209,
+      "ra": 331.2021637047531,
+      "dec": -56.78087765935621,
+      "x": 1.446,
+      "y": 46.457,
+      "pmra_mas_yr": 10.239,
+      "pmdec_mas_yr": -33.593,
+      "gmag": 17.390628814697266,
+      "bp_rp": 0.6913660168647766,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.2021601147688,
+          "dec": -56.78087120670224,
+          "x": 1.447,
+          "y": 46.461
+        },
+        "epoch_1": {
+          "ra": 331.20216230561954,
+          "dec": -56.78087514454749,
+          "x": 1.446,
+          "y": 46.458
+        },
+        "epoch_2": {
+          "ra": 331.20216509350365,
+          "dec": -56.780880155502146,
+          "x": 1.445,
+          "y": 46.455
+        },
+        "epoch_3": {
+          "ra": 331.2021673051218,
+          "dec": -56.78088413067285,
+          "x": 1.445,
+          "y": 46.453
+        }
+      }
+    },
+    {
+      "source_id": "6412594358583479168",
+      "ra_j2016": 331.03312315267,
+      "dec_j2016": -56.84778357949,
+      "ra": 331.033174622313,
+      "dec": -56.84781427406275,
+      "x": 55.166,
+      "y": 7.607,
+      "pmra_mas_yr": 10.087,
+      "pmdec_mas_yr": -11.0,
+      "gmag": 17.44804573059082,
+      "bp_rp": 0.7399200201034546,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0331710793052,
+          "dec": -56.84781216114749,
+          "x": 55.167,
+          "y": 7.608
+        },
+        "epoch_1": {
+          "ra": 331.03317324148776,
+          "dec": -56.84781345059109,
+          "x": 55.166,
+          "y": 7.607
+        },
+        "epoch_2": {
+          "ra": 331.03317599289096,
+          "dec": -56.84781509142328,
+          "x": 55.165,
+          "y": 7.606
+        },
+        "epoch_3": {
+          "ra": 331.0331781755686,
+          "dec": -56.84781639308902,
+          "x": 55.164,
+          "y": 7.606
+        }
+      }
+    },
+    {
+      "source_id": "6412597180377906944",
+      "ra_j2016": 331.02473442129,
+      "dec_j2016": -56.7354947197,
+      "ra": 331.024743675116,
+      "dec": -56.735504042481736,
+      "x": 57.911,
+      "y": 72.817,
+      "pmra_mas_yr": 1.819,
+      "pmdec_mas_yr": -3.341,
+      "gmag": 17.541770935058594,
+      "bp_rp": 1.4812300205230713,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.02474303811215,
+          "dec": -56.73550340073136,
+          "x": 57.911,
+          "y": 72.817
+        },
+        "epoch_1": {
+          "ra": 331.0247434268549,
+          "dec": -56.735503792370785,
+          "x": 57.911,
+          "y": 72.817
+        },
+        "epoch_2": {
+          "ra": 331.0247439215347,
+          "dec": -56.73550429073658,
+          "x": 57.911,
+          "y": 72.817
+        },
+        "epoch_3": {
+          "ra": 331.0247443139623,
+          "dec": -56.73550468608822,
+          "x": 57.911,
+          "y": 72.816
+        }
+      }
+    },
+    {
+      "source_id": "6412596630622085248",
+      "ra_j2016": 331.16101513441,
+      "dec_j2016": -56.72894188794,
+      "ra": 331.16105469666115,
+      "dec": -56.72896296953166,
+      "x": 14.494,
+      "y": 76.617,
+      "pmra_mas_yr": 7.778,
+      "pmdec_mas_yr": -7.555,
+      "gmag": 17.55565643310547,
+      "bp_rp": 0.6921809911727905,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.16105197332126,
+          "dec": -56.728961518342906,
+          "x": 14.495,
+          "y": 76.618
+        },
+        "epoch_1": {
+          "ra": 331.16105363528715,
+          "dec": -56.7289624039563,
+          "x": 14.495,
+          "y": 76.617
+        },
+        "epoch_2": {
+          "ra": 331.1610557501586,
+          "dec": -56.72896353090979,
+          "x": 14.494,
+          "y": 76.617
+        },
+        "epoch_3": {
+          "ra": 331.16105742787795,
+          "dec": -56.728964424917564,
+          "x": 14.493,
+          "y": 76.616
+        }
+      }
+    },
+    {
+      "source_id": "6412593091569035904",
+      "ra_j2016": 331.12848813033,
+      "dec_j2016": -56.79842846634,
+      "ra": 331.12851238658,
+      "dec": -56.798439162004726,
+      "x": 24.879,
+      "y": 36.283,
+      "pmra_mas_yr": 4.76,
+      "pmdec_mas_yr": -3.833,
+      "gmag": 17.557878494262695,
+      "bp_rp": 0.9375420212745667,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1285107168571,
+          "dec": -56.79843842574962,
+          "x": 24.88,
+          "y": 36.284
+        },
+        "epoch_1": {
+          "ra": 331.1285117358347,
+          "dec": -56.79843887506221,
+          "x": 24.879,
+          "y": 36.284
+        },
+        "epoch_2": {
+          "ra": 331.1285130324959,
+          "dec": -56.79843944681779,
+          "x": 24.879,
+          "y": 36.283
+        },
+        "epoch_3": {
+          "ra": 331.1285140611322,
+          "dec": -56.79843990038925,
+          "x": 24.879,
+          "y": 36.283
+        }
+      }
+    },
+    {
+      "source_id": "6412595973491216000",
+      "ra_j2016": 331.05980292676,
+      "dec_j2016": -56.80394977068,
+      "ra": 331.05979210667255,
+      "dec": -56.803970190948704,
+      "x": 46.727,
+      "y": 33.071,
+      "pmra_mas_yr": -2.123,
+      "pmdec_mas_yr": -7.318,
+      "gmag": 17.576618194580078,
+      "bp_rp": 0.8484990000724792,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05979285149306,
+          "dec": -56.80396878528293,
+          "x": 46.727,
+          "y": 33.072
+        },
+        "epoch_1": {
+          "ra": 331.05979239695336,
+          "dec": -56.80396964311512,
+          "x": 46.727,
+          "y": 33.071
+        },
+        "epoch_2": {
+          "ra": 331.05979181854605,
+          "dec": -56.80397073471673,
+          "x": 46.727,
+          "y": 33.071
+        },
+        "epoch_3": {
+          "ra": 331.05979135969784,
+          "dec": -56.80397160068002,
+          "x": 46.728,
+          "y": 33.07
+        }
+      }
+    },
+    {
+      "source_id": "6412591167423618816",
+      "ra_j2016": 331.12141657284,
+      "dec_j2016": -56.87862697083,
+      "ra": 331.12146826878154,
+      "dec": -56.878653189574315,
+      "x": 27.136,
+      "y": -10.292,
+      "pmra_mas_yr": 10.123,
+      "pmdec_mas_yr": -9.396,
+      "gmag": 17.72926902770996,
+      "bp_rp": 1.6750390529632568,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1214647101964,
+          "dec": -56.878651384760744,
+          "x": 27.137,
+          "y": -10.291
+        },
+        "epoch_1": {
+          "ra": 331.12146688188534,
+          "dec": -56.87865248617989,
+          "x": 27.136,
+          "y": -10.291
+        },
+        "epoch_2": {
+          "ra": 331.1214696453854,
+          "dec": -56.87865388774875,
+          "x": 27.135,
+          "y": -10.292
+        },
+        "epoch_3": {
+          "ra": 331.1214718376594,
+          "dec": -56.878654999607804,
+          "x": 27.135,
+          "y": -10.293
+        }
+      }
+    },
+    {
+      "source_id": "6412593263367724288",
+      "ra_j2016": 331.19206433529,
+      "dec_j2016": -56.78173190022,
+      "ra": 331.1921440753747,
+      "dec": -56.781763470968734,
+      "x": 4.634,
+      "y": 45.947,
+      "pmra_mas_yr": 15.655,
+      "pmdec_mas_yr": -11.314,
+      "gmag": 17.753829956054688,
+      "bp_rp": 1.8913270235061646,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1921385863188,
+          "dec": -56.781761297741284,
+          "x": 4.636,
+          "y": 45.948
+        },
+        "epoch_1": {
+          "ra": 331.19214193611134,
+          "dec": -56.781762623991476,
+          "x": 4.634,
+          "y": 45.948
+        },
+        "epoch_2": {
+          "ra": 331.19214619876243,
+          "dec": -56.781764311660424,
+          "x": 4.633,
+          "y": 45.947
+        },
+        "epoch_3": {
+          "ra": 331.19214958030716,
+          "dec": -56.781765650481496,
+          "x": 4.632,
+          "y": 45.946
+        }
+      }
+    },
+    {
+      "source_id": "6412595531110468864",
+      "ra_j2016": 330.99049293034,
+      "dec_j2016": -56.77987841109,
+      "ra": 330.990483008529,
+      "dec": -56.779895312643355,
+      "x": 68.783,
+      "y": 47.027,
+      "pmra_mas_yr": -1.948,
+      "pmdec_mas_yr": -6.057,
+      "gmag": 17.914304733276367,
+      "bp_rp": 2.7224481105804443,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.99048369151495,
+          "dec": -56.77989414919466,
+          "x": 68.783,
+          "y": 47.028
+        },
+        "epoch_1": {
+          "ra": 330.9904832747108,
+          "dec": -56.77989485920963,
+          "x": 68.783,
+          "y": 47.027
+        },
+        "epoch_2": {
+          "ra": 330.99048274432255,
+          "dec": -56.77989576271209,
+          "x": 68.783,
+          "y": 47.027
+        },
+        "epoch_3": {
+          "ra": 330.9904823235676,
+          "dec": -56.77989647945706,
+          "x": 68.783,
+          "y": 47.026
+        }
+      }
+    },
+    {
+      "source_id": "6412597042939010944",
+      "ra_j2016": 331.00389607779,
+      "dec_j2016": -56.7621156743,
+      "ra": 331.0038958028803,
+      "dec": -56.76211442140292,
+      "x": 64.53,
+      "y": 57.357,
+      "pmra_mas_yr": -0.054,
+      "pmdec_mas_yr": 0.449,
+      "gmag": 17.92949104309082,
+      "bp_rp": 1.9067540168762207,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.00389582180424,
+          "dec": -56.76211450764834,
+          "x": 64.53,
+          "y": 57.357
+        },
+        "epoch_1": {
+          "ra": 331.0038958102556,
+          "dec": -56.762114455015556,
+          "x": 64.53,
+          "y": 57.357
+        },
+        "epoch_2": {
+          "ra": 331.0038957955598,
+          "dec": -56.76211438803972,
+          "x": 64.53,
+          "y": 57.358
+        },
+        "epoch_3": {
+          "ra": 331.00389578390167,
+          "dec": -56.762114334908055,
+          "x": 64.53,
+          "y": 57.358
+        }
+      }
+    },
+    {
+      "source_id": "6412595909067585024",
+      "ra_j2016": 331.09690585121,
+      "dec_j2016": -56.81663142096,
+      "ra": 331.0970900130994,
+      "dec": -56.81667289757777,
+      "x": 34.87,
+      "y": 25.698,
+      "pmra_mas_yr": 36.122,
+      "pmdec_mas_yr": -14.864,
+      "gmag": 17.995437622070312,
+      "bp_rp": 2.3144779205322266,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.09707733597253,
+          "dec": -56.81667004246912,
+          "x": 34.874,
+          "y": 25.7
+        },
+        "epoch_1": {
+          "ra": 331.09708507241123,
+          "dec": -56.816671784849376,
+          "x": 34.872,
+          "y": 25.699
+        },
+        "epoch_2": {
+          "ra": 331.0970949171222,
+          "dec": -56.81667400204822,
+          "x": 34.869,
+          "y": 25.698
+        },
+        "epoch_3": {
+          "ra": 331.0971027268937,
+          "dec": -56.816675760942836,
+          "x": 34.866,
+          "y": 25.697
+        }
+      }
+    },
+    {
+      "source_id": "6412596012146801152",
+      "ra_j2016": 331.07645259656,
+      "dec_j2016": -56.79381206688,
+      "ra": 331.09674537756234,
+      "dec": -56.800693909467476,
+      "x": 34.98,
+      "y": 34.976,
+      "pmra_mas_yr": 3981.977,
+      "pmdec_mas_yr": -2466.832,
+      "gmag": 18.030664443969727,
+      "bp_rp": 5.081964015960693,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0953482489212,
+          "dec": -56.80022029106472,
+          "x": 35.424,
+          "y": 35.251
+        },
+        "epoch_1": {
+          "ra": 331.09620086697555,
+          "dec": -56.8005093268562,
+          "x": 35.153,
+          "y": 35.084
+        },
+        "epoch_2": {
+          "ra": 331.0972858525546,
+          "dec": -56.80087711991828,
+          "x": 34.808,
+          "y": 34.87
+        },
+        "epoch_3": {
+          "ra": 331.09814658250843,
+          "dec": -56.801168882018416,
+          "x": 34.534,
+          "y": 34.701
+        }
+      }
+    },
+    {
+      "source_id": "6412593465232562432",
+      "ra_j2016": 331.19123882742,
+      "dec_j2016": -56.78031522464,
+      "ra": 331.1913191094868,
+      "dec": -56.780346655867554,
+      "x": 4.895,
+      "y": 46.77,
+      "pmra_mas_yr": 15.762,
+      "pmdec_mas_yr": -11.264,
+      "gmag": 18.052865982055664,
+      "bp_rp": 1.8156189918518066,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1913135831225,
+          "dec": -56.78034449224431,
+          "x": 4.897,
+          "y": 46.771
+        },
+        "epoch_1": {
+          "ra": 331.1913169556832,
+          "dec": -56.780345812633364,
+          "x": 4.896,
+          "y": 46.771
+        },
+        "epoch_2": {
+          "ra": 331.19132124730686,
+          "dec": -56.780347492843944,
+          "x": 4.894,
+          "y": 46.77
+        },
+        "epoch_3": {
+          "ra": 331.19132465183543,
+          "dec": -56.78034882574832,
+          "x": 4.893,
+          "y": 46.769
+        }
+      }
+    },
+    {
+      "source_id": "6412591266207007232",
+      "ra_j2016": 331.09828361366,
+      "dec_j2016": -56.8763907034,
+      "ra": 331.0983238220273,
+      "dec": -56.876399286715206,
+      "x": 34.479,
+      "y": -8.982,
+      "pmra_mas_yr": 7.874,
+      "pmdec_mas_yr": -3.076,
+      "gmag": 18.10005760192871,
+      "bp_rp": 0.9577289819717407,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0983210542116,
+          "dec": -56.876398695867735,
+          "x": 34.48,
+          "y": -8.981
+        },
+        "epoch_1": {
+          "ra": 331.09832274331967,
+          "dec": -56.87639905644278,
+          "x": 34.479,
+          "y": -8.981
+        },
+        "epoch_2": {
+          "ra": 331.09832489272964,
+          "dec": -56.87639951527875,
+          "x": 34.479,
+          "y": -8.982
+        },
+        "epoch_3": {
+          "ra": 331.0983265978482,
+          "dec": -56.87639987927152,
+          "x": 34.478,
+          "y": -8.982
+        }
+      }
+    },
+    {
+      "source_id": "6412596798124988800",
+      "ra_j2016": 331.05019259956,
+      "dec_j2016": -56.72655177726,
+      "ra": 331.0501839938692,
+      "dec": -56.726566672503864,
+      "x": 49.812,
+      "y": 78.013,
+      "pmra_mas_yr": -1.692,
+      "pmdec_mas_yr": -5.338,
+      "gmag": 18.121889114379883,
+      "bp_rp": 1.0111030340194702,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05018458625756,
+          "dec": -56.72656564716308,
+          "x": 49.812,
+          "y": 78.014
+        },
+        "epoch_1": {
+          "ra": 331.0501842247422,
+          "dec": -56.726566272895276,
+          "x": 49.812,
+          "y": 78.013
+        },
+        "epoch_2": {
+          "ra": 331.0501837647096,
+          "dec": -56.72656706914691,
+          "x": 49.812,
+          "y": 78.013
+        },
+        "epoch_3": {
+          "ra": 331.05018339976743,
+          "dec": -56.72656770081021,
+          "x": 49.812,
+          "y": 78.013
+        }
+      }
+    },
+    {
+      "source_id": "6412596660686036736",
+      "ra_j2016": 331.12510543056,
+      "dec_j2016": -56.72526955892,
+      "ra": 331.1251809769817,
+      "dec": -56.7252768669984,
+      "x": 25.921,
+      "y": 78.765,
+      "pmra_mas_yr": 14.854,
+      "pmdec_mas_yr": -2.619,
+      "gmag": 18.131656646728516,
+      "bp_rp": 1.0701409578323364,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.12517577660736,
+          "dec": -56.725276363935194,
+          "x": 25.922,
+          "y": 78.765
+        },
+        "epoch_1": {
+          "ra": 331.125178950227,
+          "dec": -56.72527667093836,
+          "x": 25.921,
+          "y": 78.765
+        },
+        "epoch_2": {
+          "ra": 331.12518298869554,
+          "dec": -56.725277061603414,
+          "x": 25.92,
+          "y": 78.765
+        },
+        "epoch_3": {
+          "ra": 331.12518619239694,
+          "dec": -56.725277371516384,
+          "x": 25.919,
+          "y": 78.765
+        }
+      }
+    },
+    {
+      "source_id": "6412595355015914624",
+      "ra_j2016": 330.97319482029,
+      "dec_j2016": -56.81587893046,
+      "ra": 330.9732312980623,
+      "dec": -56.81587016854635,
+      "x": 74.233,
+      "y": 26.129,
+      "pmra_mas_yr": 7.155,
+      "pmdec_mas_yr": 3.14,
+      "gmag": 18.22666358947754,
+      "bp_rp": 2.2956409454345703,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.97322878704995,
+          "dec": -56.81587077168873,
+          "x": 74.234,
+          "y": 26.129
+        },
+        "epoch_1": {
+          "ra": 330.97323031943927,
+          "dec": -56.815870403610525,
+          "x": 74.233,
+          "y": 26.129
+        },
+        "epoch_2": {
+          "ra": 330.97323226942274,
+          "dec": -56.815869935226615,
+          "x": 74.233,
+          "y": 26.129
+        },
+        "epoch_3": {
+          "ra": 330.973233816337,
+          "dec": -56.815869563659476,
+          "x": 74.232,
+          "y": 26.129
+        }
+      }
+    },
+    {
+      "source_id": "6412594530382186496",
+      "ra_j2016": 330.99733418167,
+      "dec_j2016": -56.82917643779,
+      "ra": 330.99739809532076,
+      "dec": -56.82920297184577,
+      "x": 66.542,
+      "y": 18.4,
+      "pmra_mas_yr": 12.532,
+      "pmdec_mas_yr": -9.509,
+      "gmag": 18.24740219116211,
+      "bp_rp": 2.889678955078125,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.99739369570716,
+          "dec": -56.829201145327524,
+          "x": 66.543,
+          "y": 18.401
+        },
+        "epoch_1": {
+          "ra": 330.99739638064847,
+          "dec": -56.829202259992336,
+          "x": 66.542,
+          "y": 18.4
+        },
+        "epoch_2": {
+          "ra": 330.9973997972683,
+          "dec": -56.82920367841641,
+          "x": 66.541,
+          "y": 18.4
+        },
+        "epoch_3": {
+          "ra": 330.99740250765973,
+          "dec": -56.82920480364663,
+          "x": 66.54,
+          "y": 18.399
+        }
+      }
+    },
+    {
+      "source_id": "6412596145289934336",
+      "ra_j2016": 331.0834161669,
+      "dec_j2016": -56.76606321982,
+      "ra": 331.08339958912865,
+      "dec": -56.766046644743916,
+      "x": 39.227,
+      "y": 55.094,
+      "pmra_mas_yr": -3.256,
+      "pmdec_mas_yr": 5.94,
+      "gmag": 18.261899948120117,
+      "bp_rp": 2.758512020111084,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.08340073028876,
+          "dec": -56.76604778571906,
+          "x": 39.226,
+          "y": 55.093
+        },
+        "epoch_1": {
+          "ra": 331.08340003387576,
+          "dec": -56.76604708941897,
+          "x": 39.226,
+          "y": 55.094
+        },
+        "epoch_2": {
+          "ra": 331.08339914768203,
+          "dec": -56.76604620336885,
+          "x": 39.227,
+          "y": 55.094
+        },
+        "epoch_3": {
+          "ra": 331.08339844466803,
+          "dec": -56.76604550046875,
+          "x": 39.227,
+          "y": 55.095
+        }
+      }
+    },
+    {
+      "source_id": "6412593362151118976",
+      "ra_j2016": 331.21975557969,
+      "dec_j2016": -56.78077257134,
+      "ra": 331.21978047648645,
+      "dec": -56.78078295168753,
+      "x": -4.158,
+      "y": 46.503,
+      "pmra_mas_yr": 4.888,
+      "pmdec_mas_yr": -3.72,
+      "gmag": 18.315004348754883,
+      "bp_rp": 2.2619779109954834,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.2197787626704,
+          "dec": -56.78078223713786,
+          "x": -4.158,
+          "y": 46.503
+        },
+        "epoch_1": {
+          "ra": 331.21977980855667,
+          "dec": -56.78078267320432,
+          "x": -4.158,
+          "y": 46.503
+        },
+        "epoch_2": {
+          "ra": 331.2197811394594,
+          "dec": -56.78078322810406,
+          "x": -4.158,
+          "y": 46.502
+        },
+        "epoch_3": {
+          "ra": 331.21978219525937,
+          "dec": -56.78078366830384,
+          "x": -4.159,
+          "y": 46.502
+        }
+      }
+    },
+    {
+      "source_id": "6412592812395268736",
+      "ra_j2016": 331.17740347266,
+      "dec_j2016": -56.83006130106,
+      "ra": 331.17740548722094,
+      "dec": -56.83007204137374,
+      "x": 9.355,
+      "y": 17.903,
+      "pmra_mas_yr": 0.395,
+      "pmdec_mas_yr": -3.849,
+      "gmag": 18.377614974975586,
+      "bp_rp": 0.9809420108795166,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.177405348545,
+          "dec": -56.83007130204498,
+          "x": 9.355,
+          "y": 17.904
+        },
+        "epoch_1": {
+          "ra": 331.1774054331744,
+          "dec": -56.83007175323332,
+          "x": 9.355,
+          "y": 17.903
+        },
+        "epoch_2": {
+          "ra": 331.17740554086635,
+          "dec": -56.83007232737582,
+          "x": 9.355,
+          "y": 17.903
+        },
+        "epoch_3": {
+          "ra": 331.17740562629797,
+          "dec": -56.83007278284082,
+          "x": 9.355,
+          "y": 17.903
+        }
+      }
+    },
+    {
+      "source_id": "6412596149586240000",
+      "ra_j2016": 331.09448422177,
+      "dec_j2016": -56.76953607813,
+      "ra": 331.09449430378857,
+      "dec": -56.769552044893764,
+      "x": 35.696,
+      "y": 53.059,
+      "pmra_mas_yr": 1.98,
+      "pmdec_mas_yr": -5.722,
+      "gmag": 18.422422409057617,
+      "bp_rp": 1.2605040073394775,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.09449360977453,
+          "dec": -56.76955094579298,
+          "x": 35.696,
+          "y": 53.059
+        },
+        "epoch_1": {
+          "ra": 331.09449403330876,
+          "dec": -56.769551616538514,
+          "x": 35.696,
+          "y": 53.059
+        },
+        "epoch_2": {
+          "ra": 331.0944945722612,
+          "dec": -56.76955247007014,
+          "x": 35.696,
+          "y": 53.059
+        },
+        "epoch_3": {
+          "ra": 331.09449499981,
+          "dec": -56.76955314717343,
+          "x": 35.696,
+          "y": 53.058
+        }
+      }
+    },
+    {
+      "source_id": "6412595389375661312",
+      "ra_j2016": 330.98262746138,
+      "dec_j2016": -56.80526087131,
+      "ra": 330.9826346070639,
+      "dec": -56.80526601125729,
+      "x": 71.255,
+      "y": 32.292,
+      "pmra_mas_yr": 1.402,
+      "pmdec_mas_yr": -1.842,
+      "gmag": 18.42563819885254,
+      "bp_rp": 0.9212909936904907,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.9826341151779,
+          "dec": -56.80526565743982,
+          "x": 71.255,
+          "y": 32.292
+        },
+        "epoch_1": {
+          "ra": 330.98263441536,
+          "dec": -56.80526587336313,
+          "x": 71.255,
+          "y": 32.292
+        },
+        "epoch_2": {
+          "ra": 330.98263479734527,
+          "dec": -56.80526614812812,
+          "x": 71.255,
+          "y": 32.291
+        },
+        "epoch_3": {
+          "ra": 330.98263510037265,
+          "dec": -56.805266366098095,
+          "x": 71.255,
+          "y": 32.291
+        }
+      }
+    },
+    {
+      "source_id": "6412592674956300288",
+      "ra_j2016": 331.14330705918,
+      "dec_j2016": -56.84795171799,
+      "ra": 331.1432776937593,
+      "dec": -56.84796631465614,
+      "x": 20.204,
+      "y": 7.523,
+      "pmra_mas_yr": -5.755,
+      "pmdec_mas_yr": -5.231,
+      "gmag": 18.50728416442871,
+      "bp_rp": 2.811033010482788,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1432797151814,
+          "dec": -56.847965309868684,
+          "x": 20.203,
+          "y": 7.524
+        },
+        "epoch_1": {
+          "ra": 331.14327848157313,
+          "dec": -56.84796592305785,
+          "x": 20.204,
+          "y": 7.523
+        },
+        "epoch_2": {
+          "ra": 331.1432769117919,
+          "dec": -56.84796670334832,
+          "x": 20.204,
+          "y": 7.523
+        },
+        "epoch_3": {
+          "ra": 331.1432756664906,
+          "dec": -56.847967322349675,
+          "x": 20.205,
+          "y": 7.522
+        }
+      }
+    },
+    {
+      "source_id": "6412592674956293760",
+      "ra_j2016": 331.14243987936,
+      "dec_j2016": -56.85393939306,
+      "ra": 331.14245131610033,
+      "dec": -56.85395525378782,
+      "x": 20.469,
+      "y": 4.046,
+      "pmra_mas_yr": 2.241,
+      "pmdec_mas_yr": -5.684,
+      "gmag": 18.516462326049805,
+      "bp_rp": 1.055677056312561,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.14245052883155,
+          "dec": -56.853954161986216,
+          "x": 20.469,
+          "y": 4.046
+        },
+        "epoch_1": {
+          "ra": 331.14245100927616,
+          "dec": -56.85395482827728,
+          "x": 20.469,
+          "y": 4.046
+        },
+        "epoch_2": {
+          "ra": 331.1424516206476,
+          "dec": -56.853955676140565,
+          "x": 20.469,
+          "y": 4.045
+        },
+        "epoch_3": {
+          "ra": 331.1424521056462,
+          "dec": -56.85395634874718,
+          "x": 20.469,
+          "y": 4.045
+        }
+      }
+    },
+    {
+      "source_id": "6412597141722361472",
+      "ra_j2016": 331.02551472161,
+      "dec_j2016": -56.74114133126,
+      "ra": 331.02566184358574,
+      "dec": -56.741191288002966,
+      "x": 57.615,
+      "y": 69.515,
+      "pmra_mas_yr": 28.915,
+      "pmdec_mas_yr": -17.903,
+      "gmag": 18.536592483520508,
+      "bp_rp": 2.7961270809173584,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0256517161682,
+          "dec": -56.741187849146556,
+          "x": 57.619,
+          "y": 69.517
+        },
+        "epoch_1": {
+          "ra": 331.0256578966021,
+          "dec": -56.74118994776908,
+          "x": 57.617,
+          "y": 69.515
+        },
+        "epoch_2": {
+          "ra": 331.02566576127845,
+          "dec": -56.74119261829065,
+          "x": 57.614,
+          "y": 69.514
+        },
+        "epoch_3": {
+          "ra": 331.0256720002962,
+          "dec": -56.741194736804616,
+          "x": 57.612,
+          "y": 69.513
+        }
+      }
+    },
+    {
+      "source_id": "6412591334926488960",
+      "ra_j2016": 331.08661293716,
+      "dec_j2016": -56.86636834339,
+      "ra": 331.0866370536691,
+      "dec": -56.8663712928581,
+      "x": 38.188,
+      "y": -3.159,
+      "pmra_mas_yr": 4.724,
+      "pmdec_mas_yr": -1.057,
+      "gmag": 18.536901473999023,
+      "bp_rp": 1.4437899589538574,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0866353935658,
+          "dec": -56.86637108982632,
+          "x": 38.188,
+          "y": -3.159
+        },
+        "epoch_1": {
+          "ra": 331.08663640667294,
+          "dec": -56.86637121373002,
+          "x": 38.188,
+          "y": -3.159
+        },
+        "epoch_2": {
+          "ra": 331.08663769586377,
+          "dec": -56.866371371398934,
+          "x": 38.188,
+          "y": -3.159
+        },
+        "epoch_3": {
+          "ra": 331.0866387185738,
+          "dec": -56.866371496477065,
+          "x": 38.187,
+          "y": -3.159
+        }
+      }
+    },
+    {
+      "source_id": "6412591442302069376",
+      "ra_j2016": 331.07826851418,
+      "dec_j2016": -56.84775744021,
+      "ra": 331.07831462608544,
+      "dec": -56.84778417797401,
+      "x": 40.832,
+      "y": 7.633,
+      "pmra_mas_yr": 9.037,
+      "pmdec_mas_yr": -9.582,
+      "gmag": 18.6019344329834,
+      "bp_rp": 1.704280972480774,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.07831145188766,
+          "dec": -56.84778233743264,
+          "x": 40.833,
+          "y": 7.634
+        },
+        "epoch_1": {
+          "ra": 331.07831338899746,
+          "dec": -56.84778346065529,
+          "x": 40.832,
+          "y": 7.633
+        },
+        "epoch_2": {
+          "ra": 331.0783158539928,
+          "dec": -56.847784889969375,
+          "x": 40.832,
+          "y": 7.633
+        },
+        "epoch_3": {
+          "ra": 331.0783178094641,
+          "dec": -56.84778602383862,
+          "x": 40.831,
+          "y": 7.632
+        }
+      }
+    },
+    {
+      "source_id": "6412592846755018624",
+      "ra_j2016": 331.16854480322,
+      "dec_j2016": -56.81400314439,
+      "ra": 331.1685813811637,
+      "dec": -56.814033353435484,
+      "x": 12.149,
+      "y": 27.219,
+      "pmra_mas_yr": 7.175,
+      "pmdec_mas_yr": -10.826,
+      "gmag": 18.626041412353516,
+      "bp_rp": 0.8614919781684875,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.16857886325346,
+          "dec": -56.81403127394202,
+          "x": 12.149,
+          "y": 27.22
+        },
+        "epoch_1": {
+          "ra": 331.16858039985226,
+          "dec": -56.814032542989374,
+          "x": 12.149,
+          "y": 27.219
+        },
+        "epoch_2": {
+          "ra": 331.16858235519265,
+          "dec": -56.814034157867134,
+          "x": 12.148,
+          "y": 27.219
+        },
+        "epoch_3": {
+          "ra": 331.1685839063566,
+          "dec": -56.81403543894332,
+          "x": 12.148,
+          "y": 27.218
+        }
+      }
+    },
+    {
+      "source_id": "6412595526814636928",
+      "ra_j2016": 330.98784799179,
+      "dec_j2016": -56.7761627145,
+      "ra": 330.9878472889801,
+      "dec": -56.77616160391417,
+      "x": 69.625,
+      "y": 49.194,
+      "pmra_mas_yr": -0.138,
+      "pmdec_mas_yr": 0.398,
+      "gmag": 18.645206451416016,
+      "bp_rp": 2.182687997817993,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 330.98784733735926,
+          "dec": -56.77616168036334,
+          "x": 69.625,
+          "y": 49.194
+        },
+        "epoch_1": {
+          "ra": 330.987847307835,
+          "dec": -56.776161633708895,
+          "x": 69.625,
+          "y": 49.194
+        },
+        "epoch_2": {
+          "ra": 330.9878472702651,
+          "dec": -56.776161574340556,
+          "x": 69.625,
+          "y": 49.194
+        },
+        "epoch_3": {
+          "ra": 330.987847240461,
+          "dec": -56.77616152724389,
+          "x": 69.625,
+          "y": 49.194
+        }
+      }
+    },
+    {
+      "source_id": "6412596798124987776",
+      "ra_j2016": 331.05729157331,
+      "dec_j2016": -56.7282080267,
+      "ra": 331.0572365494159,
+      "dec": -56.728208771729136,
+      "x": 47.565,
+      "y": 77.061,
+      "pmra_mas_yr": -10.818,
+      "pmdec_mas_yr": -0.267,
+      "gmag": 18.71501922607422,
+      "bp_rp": 2.62076997756958,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0572403370844,
+          "dec": -56.72820872044449,
+          "x": 47.564,
+          "y": 77.061
+        },
+        "epoch_1": {
+          "ra": 331.0572380255933,
+          "dec": -56.72820875174185,
+          "x": 47.565,
+          "y": 77.061
+        },
+        "epoch_2": {
+          "ra": 331.05723508419345,
+          "dec": -56.728208791568065,
+          "x": 47.566,
+          "y": 77.061
+        },
+        "epoch_3": {
+          "ra": 331.05723275079254,
+          "dec": -56.728208823161985,
+          "x": 47.566,
+          "y": 77.061
+        }
+      }
+    },
+    {
+      "source_id": "6412594530382172416",
+      "ra_j2016": 331.00767133902,
+      "dec_j2016": -56.84589769043,
+      "ra": 331.0077020804414,
+      "dec": -56.84589753137248,
+      "x": 63.255,
+      "y": 8.711,
+      "pmra_mas_yr": 6.025,
+      "pmdec_mas_yr": 0.057,
+      "gmag": 18.753297805786133,
+      "bp_rp": 2.0271990299224854,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.00769996430057,
+          "dec": -56.84589754232172,
+          "x": 63.256,
+          "y": 8.711
+        },
+        "epoch_1": {
+          "ra": 331.0077012557126,
+          "dec": -56.84589753563976,
+          "x": 63.256,
+          "y": 8.711
+        },
+        "epoch_2": {
+          "ra": 331.0077028990498,
+          "dec": -56.845897527136856,
+          "x": 63.255,
+          "y": 8.711
+        },
+        "epoch_3": {
+          "ra": 331.0077042027027,
+          "dec": -56.84589752039151,
+          "x": 63.255,
+          "y": 8.711
+        }
+      }
+    },
+    {
+      "source_id": "6412596420167852544",
+      "ra_j2016": 331.04603492987,
+      "dec_j2016": -56.74722148262,
+      "ra": 331.04607771737926,
+      "dec": -56.74724313345559,
+      "x": 51.112,
+      "y": 66.006,
+      "pmra_mas_yr": 8.408,
+      "pmdec_mas_yr": -7.759,
+      "gmag": 18.78708839416504,
+      "bp_rp": 0.9494670033454895,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0460747720228,
+          "dec": -56.747241643081985,
+          "x": 51.112,
+          "y": 66.007
+        },
+        "epoch_1": {
+          "ra": 331.0460765694782,
+          "dec": -56.74724255260861,
+          "x": 51.112,
+          "y": 66.007
+        },
+        "epoch_2": {
+          "ra": 331.0460788567616,
+          "dec": -56.747243709992,
+          "x": 51.111,
+          "y": 66.006
+        },
+        "epoch_3": {
+          "ra": 331.04608067125474,
+          "dec": -56.747244628139676,
+          "x": 51.111,
+          "y": 66.006
+        }
+      }
+    },
+    {
+      "source_id": "6412596076570445184",
+      "ra_j2016": 331.12243097902,
+      "dec_j2016": -56.78737773947,
+      "ra": 331.122465946572,
+      "dec": -56.787320708929286,
+      "x": 26.799,
+      "y": 42.74,
+      "pmra_mas_yr": 6.864,
+      "pmdec_mas_yr": 20.438,
+      "gmag": 18.844995498657227,
+      "bp_rp": 2.721791982650757,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1224635395212,
+          "dec": -56.787324634729096,
+          "x": 26.8,
+          "y": 42.738
+        },
+        "epoch_1": {
+          "ra": 331.1224650084662,
+          "dec": -56.787322238940924,
+          "x": 26.8,
+          "y": 42.739
+        },
+        "epoch_2": {
+          "ra": 331.1224668777158,
+          "dec": -56.78731919027207,
+          "x": 26.799,
+          "y": 42.741
+        },
+        "epoch_3": {
+          "ra": 331.122468360584,
+          "dec": -56.78731677177497,
+          "x": 26.798,
+          "y": 42.742
+        }
+      }
+    },
+    {
+      "source_id": "6412596420167851520",
+      "ra_j2016": 331.05222720571,
+      "dec_j2016": -56.74920920612,
+      "ra": 331.0523341293413,
+      "dec": -56.749262480709255,
+      "x": 49.119,
+      "y": 64.835,
+      "pmra_mas_yr": 21.01,
+      "pmdec_mas_yr": -19.092,
+      "gmag": 18.864377975463867,
+      "bp_rp": 2.3087899684906006,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05232676905183,
+          "dec": -56.74925881346033,
+          "x": 49.121,
+          "y": 64.837
+        },
+        "epoch_1": {
+          "ra": 331.0523312607974,
+          "dec": -56.74926105146334,
+          "x": 49.12,
+          "y": 64.836
+        },
+        "epoch_2": {
+          "ra": 331.0523369765976,
+          "dec": -56.749263899348456,
+          "x": 49.118,
+          "y": 64.835
+        },
+        "epoch_3": {
+          "ra": 331.0523415109202,
+          "dec": -56.74926615856438,
+          "x": 49.116,
+          "y": 64.833
+        }
+      }
+    },
+    {
+      "source_id": "6412594702180894336",
+      "ra_j2016": 331.03151040556,
+      "dec_j2016": -56.80576782838,
+      "ra": 331.0315987696049,
+      "dec": -56.80577085595086,
+      "x": 55.689,
+      "y": 32.019,
+      "pmra_mas_yr": 17.337,
+      "pmdec_mas_yr": -1.085,
+      "gmag": 18.869123458862305,
+      "bp_rp": 2.268558979034424,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.031592686907,
+          "dec": -56.80577064754459,
+          "x": 55.691,
+          "y": 32.019
+        },
+        "epoch_1": {
+          "ra": 331.03159639898007,
+          "dec": -56.80577077472821,
+          "x": 55.69,
+          "y": 32.019
+        },
+        "epoch_2": {
+          "ra": 331.031601122637,
+          "dec": -56.8057709365707,
+          "x": 55.688,
+          "y": 32.019
+        },
+        "epoch_3": {
+          "ra": 331.0316048698956,
+          "dec": -56.80577106495959,
+          "x": 55.687,
+          "y": 32.019
+        }
+      }
+    },
+    {
+      "source_id": "6412594358583481856",
+      "ra_j2016": 331.02539741873,
+      "dec_j2016": -56.84424547481,
+      "ra": 331.0254344547763,
+      "dec": -56.844253851635365,
+      "x": 57.625,
+      "y": 9.672,
+      "pmra_mas_yr": 7.259,
+      "pmdec_mas_yr": -3.002,
+      "gmag": 18.877517700195312,
+      "bp_rp": 1.6352770328521729,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0254319053331,
+          "dec": -56.84425327500191,
+          "x": 57.626,
+          "y": 9.672
+        },
+        "epoch_1": {
+          "ra": 331.0254334611755,
+          "dec": -56.84425362690259,
+          "x": 57.626,
+          "y": 9.672
+        },
+        "epoch_2": {
+          "ra": 331.0254354410034,
+          "dec": -56.844254074700345,
+          "x": 57.625,
+          "y": 9.672
+        },
+        "epoch_3": {
+          "ra": 331.02543701159317,
+          "dec": -56.84425442993653,
+          "x": 57.625,
+          "y": 9.672
+        }
+      }
+    },
+    {
+      "source_id": "6412592709316042880",
+      "ra_j2016": 331.15300567642,
+      "dec_j2016": -56.84512289879,
+      "ra": 331.1528830755503,
+      "dec": -56.845118442434526,
+      "x": 17.153,
+      "y": 9.174,
+      "pmra_mas_yr": -24.029,
+      "pmdec_mas_yr": 1.597,
+      "gmag": 19.0062255859375,
+      "bp_rp": 2.7736239433288574,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.15289151499996,
+          "dec": -56.84511874919959,
+          "x": 17.15,
+          "y": 9.174
+        },
+        "epoch_1": {
+          "ra": 331.1528863646778,
+          "dec": -56.84511856199091,
+          "x": 17.152,
+          "y": 9.174
+        },
+        "epoch_2": {
+          "ra": 331.15287981083185,
+          "dec": -56.84511832376531,
+          "x": 17.154,
+          "y": 9.174
+        },
+        "epoch_3": {
+          "ra": 331.1528746116916,
+          "dec": -56.84511813478164,
+          "x": 17.155,
+          "y": 9.174
+        }
+      }
+    },
+    {
+      "source_id": "6412592709316042752",
+      "ra_j2016": 331.15536554099,
+      "dec_j2016": -56.84432731422,
+      "ra": 331.1553710206443,
+      "dec": -56.84434525938946,
+      "x": 16.362,
+      "y": 9.623,
+      "pmra_mas_yr": 1.074,
+      "pmdec_mas_yr": -6.431,
+      "gmag": 19.017696380615234,
+      "bp_rp": 0.7902699708938599,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1553706434423,
+          "dec": -56.84434402410157,
+          "x": 16.362,
+          "y": 9.623
+        },
+        "epoch_1": {
+          "ra": 331.15537087363646,
+          "dec": -56.844344777957666,
+          "x": 16.362,
+          "y": 9.623
+        },
+        "epoch_2": {
+          "ra": 331.1553711665612,
+          "dec": -56.844345737248496,
+          "x": 16.362,
+          "y": 9.622
+        },
+        "epoch_3": {
+          "ra": 331.15537139893735,
+          "dec": -56.844346498250154,
+          "x": 16.362,
+          "y": 9.622
+        }
+      }
+    },
+    {
+      "source_id": "6412593022849557888",
+      "ra_j2016": 331.14585104383,
+      "dec_j2016": -56.81564937187,
+      "ra": 331.14588941288616,
+      "dec": -56.81571769242578,
+      "x": 19.361,
+      "y": 26.247,
+      "pmra_mas_yr": 7.526,
+      "pmdec_mas_yr": -24.484,
+      "gmag": 19.093896865844727,
+      "bp_rp": 2.788543939590454,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.145886771679,
+          "dec": -56.815712989458234,
+          "x": 19.362,
+          "y": 26.25
+        },
+        "epoch_1": {
+          "ra": 331.1458883835219,
+          "dec": -56.815715859526655,
+          "x": 19.362,
+          "y": 26.248
+        },
+        "epoch_2": {
+          "ra": 331.14589043461154,
+          "dec": -56.81571951172269,
+          "x": 19.361,
+          "y": 26.246
+        },
+        "epoch_3": {
+          "ra": 331.1458920617332,
+          "dec": -56.81572240899549,
+          "x": 19.361,
+          "y": 26.245
+        }
+      }
+    },
+    {
+      "source_id": "6412591270502835456",
+      "ra_j2016": 331.08664861575,
+      "dec_j2016": -56.86881322841,
+      "ra": 331.08667796693453,
+      "dec": -56.86884866111739,
+      "x": 38.175,
+      "y": -4.597,
+      "pmra_mas_yr": 5.749,
+      "pmdec_mas_yr": -12.698,
+      "gmag": 19.11051368713379,
+      "bp_rp": 1.8188190460205078,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0866759464913,
+          "dec": -56.86884622204368,
+          "x": 38.175,
+          "y": -4.596
+        },
+        "epoch_1": {
+          "ra": 331.0866771795022,
+          "dec": -56.868847710531185,
+          "x": 38.175,
+          "y": -4.597
+        },
+        "epoch_2": {
+          "ra": 331.0866787485232,
+          "dec": -56.86884960464915,
+          "x": 38.174,
+          "y": -4.598
+        },
+        "epoch_3": {
+          "ra": 331.0866799932216,
+          "dec": -56.86885110724551,
+          "x": 38.174,
+          "y": -4.599
+        }
+      }
+    },
+    {
+      "source_id": "6412594461662711936",
+      "ra_j2016": 331.04681795125,
+      "dec_j2016": -56.8257981365,
+      "ra": 331.0469932443173,
+      "dec": -56.82587652197177,
+      "x": 50.787,
+      "y": 20.349,
+      "pmra_mas_yr": 34.374,
+      "pmdec_mas_yr": -28.091,
+      "gmag": 19.209123611450195,
+      "bp_rp": 2.68477201461792,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0469811776813,
+          "dec": -56.82587112617519,
+          "x": 50.791,
+          "y": 20.352
+        },
+        "epoch_1": {
+          "ra": 331.0469885415571,
+          "dec": -56.825874419054806,
+          "x": 50.788,
+          "y": 20.35
+        },
+        "epoch_2": {
+          "ra": 331.04699791217814,
+          "dec": -56.825878609282505,
+          "x": 50.785,
+          "y": 20.347
+        },
+        "epoch_3": {
+          "ra": 331.0470053458567,
+          "dec": -56.82588193337326,
+          "x": 50.783,
+          "y": 20.345
+        }
+      }
+    },
+    {
+      "source_id": "6412596149584391296",
+      "ra_j2016": 331.0850749659,
+      "dec_j2016": -56.76337647008,
+      "ra": 331.08509472953307,
+      "dec": -56.763410239700946,
+      "x": 38.687,
+      "y": 56.625,
+      "pmra_mas_yr": 3.882,
+      "pmdec_mas_yr": -12.102,
+      "gmag": 19.256153106689453,
+      "bp_rp": null,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0850933690668,
+          "dec": -56.76340791510865,
+          "x": 38.688,
+          "y": 56.626
+        },
+        "epoch_1": {
+          "ra": 331.08509419931517,
+          "dec": -56.763409333731865,
+          "x": 38.688,
+          "y": 56.625
+        },
+        "epoch_2": {
+          "ra": 331.08509525581616,
+          "dec": -56.763411138946694,
+          "x": 38.687,
+          "y": 56.624
+        },
+        "epoch_3": {
+          "ra": 331.08509609393434,
+          "dec": -56.76341257101655,
+          "x": 38.687,
+          "y": 56.623
+        }
+      }
+    },
+    {
+      "source_id": "6412596179649649280",
+      "ra_j2016": 331.05068954662,
+      "dec_j2016": -56.7993414543,
+      "ra": 331.050720805322,
+      "dec": -56.799342383504836,
+      "x": 49.613,
+      "y": 35.756,
+      "pmra_mas_yr": 6.134,
+      "pmdec_mas_yr": -0.333,
+      "gmag": 19.303241729736328,
+      "bp_rp": 0.8027859926223755,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05071865357314,
+          "dec": -56.79934231954161,
+          "x": 49.614,
+          "y": 35.756
+        },
+        "epoch_1": {
+          "ra": 331.05071996671563,
+          "dec": -56.7993423585763,
+          "x": 49.613,
+          "y": 35.756
+        },
+        "epoch_2": {
+          "ra": 331.05072163770495,
+          "dec": -56.79934240824838,
+          "x": 49.613,
+          "y": 35.756
+        },
+        "epoch_3": {
+          "ra": 331.0507229632943,
+          "dec": -56.79934244765303,
+          "x": 49.612,
+          "y": 35.756
+        }
+      }
+    },
+    {
+      "source_id": "6412596007850966528",
+      "ra_j2016": 331.07668954925,
+      "dec_j2016": -56.78952366428,
+      "ra": 331.0766935943984,
+      "dec": -56.789567091534515,
+      "x": 41.357,
+      "y": 41.436,
+      "pmra_mas_yr": 0.794,
+      "pmdec_mas_yr": -15.563,
+      "gmag": 19.311616897583008,
+      "bp_rp": 1.1453319787979126,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0766933159431,
+          "dec": -56.789564102141604,
+          "x": 41.357,
+          "y": 41.438
+        },
+        "epoch_1": {
+          "ra": 331.0766934858753,
+          "dec": -56.78956592647105,
+          "x": 41.357,
+          "y": 41.437
+        },
+        "epoch_2": {
+          "ra": 331.07669370211613,
+          "dec": -56.78956824795188,
+          "x": 41.357,
+          "y": 41.436
+        },
+        "epoch_3": {
+          "ra": 331.07669387365917,
+          "dec": -56.78957008957354,
+          "x": 41.357,
+          "y": 41.435
+        }
+      }
+    },
+    {
+      "source_id": "6412592674956287744",
+      "ra_j2016": 331.15233057906,
+      "dec_j2016": -56.86217036492,
+      "ra": 331.1523279961663,
+      "dec": -56.86219092191955,
+      "x": 17.337,
+      "y": -0.739,
+      "pmra_mas_yr": -0.506,
+      "pmdec_mas_yr": -7.367,
+      "gmag": 19.318923950195312,
+      "bp_rp": 1.2897000312805176,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.15232817396446,
+          "dec": -56.86218950684164,
+          "x": 17.337,
+          "y": -0.738
+        },
+        "epoch_1": {
+          "ra": 331.15232806546004,
+          "dec": -56.86219037041774,
+          "x": 17.337,
+          "y": -0.738
+        },
+        "epoch_2": {
+          "ra": 331.1523279273868,
+          "dec": -56.862191469328586,
+          "x": 17.337,
+          "y": -0.739
+        },
+        "epoch_3": {
+          "ra": 331.1523278178538,
+          "dec": -56.86219234109025,
+          "x": 17.337,
+          "y": -0.739
+        }
+      }
+    },
+    {
+      "source_id": "6412596317088628352",
+      "ra_j2016": 331.05790091084,
+      "dec_j2016": -56.76193518746,
+      "ra": 331.0579162497104,
+      "dec": -56.761940120915725,
+      "x": 47.337,
+      "y": 57.475,
+      "pmra_mas_yr": 3.013,
+      "pmdec_mas_yr": -1.768,
+      "gmag": 19.319292068481445,
+      "bp_rp": 0.9790189862251282,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.05791519383166,
+          "dec": -56.76193978131251,
+          "x": 47.338,
+          "y": 57.475
+        },
+        "epoch_1": {
+          "ra": 331.0579158382002,
+          "dec": -56.76193998856132,
+          "x": 47.338,
+          "y": 57.475
+        },
+        "epoch_2": {
+          "ra": 331.0579166581668,
+          "dec": -56.76194025228789,
+          "x": 47.337,
+          "y": 57.475
+        },
+        "epoch_3": {
+          "ra": 331.0579173086431,
+          "dec": -56.76194046150113,
+          "x": 47.337,
+          "y": 57.475
+        }
+      }
+    },
+    {
+      "source_id": "6412593533949816320",
+      "ra_j2016": 331.16443752625,
+      "dec_j2016": -56.77135020353,
+      "ra": 331.16442255016005,
+      "dec": -56.77137662877493,
+      "x": 13.446,
+      "y": 51.989,
+      "pmra_mas_yr": -2.941,
+      "pmdec_mas_yr": -9.47,
+      "gmag": 19.334144592285156,
+      "bp_rp": 2.0637741088867188,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1644235810667,
+          "dec": -56.771374809745886,
+          "x": 13.446,
+          "y": 51.99
+        },
+        "epoch_1": {
+          "ra": 331.16442295193787,
+          "dec": -56.77137591984026,
+          "x": 13.446,
+          "y": 51.989
+        },
+        "epoch_2": {
+          "ra": 331.1644221513639,
+          "dec": -56.771377332448495,
+          "x": 13.446,
+          "y": 51.988
+        },
+        "epoch_3": {
+          "ra": 331.16442151627166,
+          "dec": -56.77137845306508,
+          "x": 13.446,
+          "y": 51.988
+        }
+      }
+    },
+    {
+      "source_id": "6412596454527580672",
+      "ra_j2016": 331.13333755028,
+      "dec_j2016": -56.76467410953,
+      "ra": 331.1333211716719,
+      "dec": -56.7646790290335,
+      "x": 23.34,
+      "y": 55.885,
+      "pmra_mas_yr": -3.217,
+      "pmdec_mas_yr": -1.763,
+      "gmag": 19.350933074951172,
+      "bp_rp": 1.793071985244751,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.1333222991229,
+          "dec": -56.764678690390724,
+          "x": 23.339,
+          "y": 55.885
+        },
+        "epoch_1": {
+          "ra": 331.1333216110762,
+          "dec": -56.764678897053415,
+          "x": 23.34,
+          "y": 55.885
+        },
+        "epoch_2": {
+          "ra": 331.13332073552857,
+          "dec": -56.76467916003414,
+          "x": 23.34,
+          "y": 55.885
+        },
+        "epoch_3": {
+          "ra": 331.1333200409601,
+          "dec": -56.76467936865571,
+          "x": 23.34,
+          "y": 55.885
+        }
+      }
+    },
+    {
+      "source_id": "6412591300566749184",
+      "ra_j2016": 331.06164574676,
+      "dec_j2016": -56.86879438156,
+      "ra": 331.06162784711034,
+      "dec": -56.86878804731289,
+      "x": 46.124,
+      "y": -4.565,
+      "pmra_mas_yr": -3.506,
+      "pmdec_mas_yr": 2.27,
+      "gmag": 19.405803680419922,
+      "bp_rp": 2.6480460166931152,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0616290792646,
+          "dec": -56.86878848334223,
+          "x": 46.124,
+          "y": -4.565
+        },
+        "epoch_1": {
+          "ra": 331.0616283273208,
+          "dec": -56.868788217247676,
+          "x": 46.124,
+          "y": -4.565
+        },
+        "epoch_2": {
+          "ra": 331.0616273704635,
+          "dec": -56.8687878786392,
+          "x": 46.125,
+          "y": -4.565
+        },
+        "epoch_3": {
+          "ra": 331.0616266113923,
+          "dec": -56.86878761002242,
+          "x": 46.125,
+          "y": -4.565
+        }
+      }
+    },
+    {
+      "source_id": "6412591476661335936",
+      "ra_j2016": 331.09230056096,
+      "dec_j2016": -56.84420910902,
+      "ra": 331.09234737260135,
+      "dec": -56.84425164891333,
+      "x": 36.376,
+      "y": 9.685,
+      "pmra_mas_yr": 9.175,
+      "pmdec_mas_yr": -15.245,
+      "gmag": 19.418731689453125,
+      "bp_rp": 2.3589859008789062,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0923441502347,
+          "dec": -56.84424872060407,
+          "x": 36.377,
+          "y": 9.687
+        },
+        "epoch_1": {
+          "ra": 331.0923461167404,
+          "dec": -56.84425050765616,
+          "x": 36.377,
+          "y": 9.686
+        },
+        "epoch_2": {
+          "ra": 331.09234861914246,
+          "dec": -56.844252781701066,
+          "x": 36.376,
+          "y": 9.684
+        },
+        "epoch_3": {
+          "ra": 331.0923506042884,
+          "dec": -56.84425458569194,
+          "x": 36.375,
+          "y": 9.683
+        }
+      }
+    },
+    {
+      "source_id": "6412596179649654912",
+      "ra_j2016": 331.04576601135,
+      "dec_j2016": -56.79326903977,
+      "ra": 331.0458031600936,
+      "dec": -56.79328650777281,
+      "x": 51.179,
+      "y": 39.272,
+      "pmra_mas_yr": 7.291,
+      "pmdec_mas_yr": -6.26,
+      "gmag": 19.45667266845703,
+      "bp_rp": 1.7437080144882202,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 331.0458006028921,
+          "dec": -56.793285305331885,
+          "x": 51.18,
+          "y": 39.272
+        },
+        "epoch_1": {
+          "ra": 331.04580216346915,
+          "dec": -56.79328603914255,
+          "x": 51.179,
+          "y": 39.272
+        },
+        "epoch_2": {
+          "ra": 331.04580414932195,
+          "dec": -56.7932869729253,
+          "x": 51.179,
+          "y": 39.271
+        },
+        "epoch_3": {
+          "ra": 331.0458057246913,
+          "dec": -56.79328771369147,
+          "x": 51.178,
+          "y": 39.271
+        }
+      }
+    }
+  ],
+  "external_links": {
+    "wiseview": "http://byw.tools/wiseview#ra=331.096681&dec=-56.800653&size=432&band=2&speed=500&minbright=-50.0000&maxbright=500.0000&window=0.5&diff_window=1&linear=1&color=&zoom=9&border=0&gaia=1&invert=1&pmra=3982.0&pmdec=-2466.8",
+    "gaia_dr3": "https://vizier.cds.unistra.fr/viz-bin/VizieR-4?-source=I/355/gaiadr3&-c=331.096681-56.800653&-c.rm=7.2",
+    "cadc": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/?Plane.position.bounds=331.096681%20-56.800653%200.0600",
+    "irsa_spherex": "https://irsa.ipac.caltech.edu/applications/spherex/#id=Hydra_spherex_spherex_1&RequestClass=ServerRequest&DoSearch=true&UserTargetWorldPt=331.096681;-56.800653;EQ_J2000"
+  },
+  "generated_at_unix": 1794718747.1456594,
+  "processing_time_sec": 12.05
+}

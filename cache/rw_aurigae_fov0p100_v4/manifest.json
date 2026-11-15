@@ -1,0 +1,3437 @@
+{
+  "target_key": "rw_aurigae_fov0p100_v4",
+  "target": {
+    "id": "rw_aurigae",
+    "name": "RW Aurigae",
+    "category": "Classical T Tauri Variable Star",
+    "description": "Young pre-main-sequence star with a dusty circumstellar disk exhibiting strong irregular optical and infrared brightness variations.",
+    "ra_ref": 76.95652603,
+    "dec_ref": 30.40143817,
+    "ra_obs": 76.95658698944885,
+    "dec_obs": 30.4012903271238,
+    "ref_epoch_jyear": 2000.0,
+    "obs_epoch_jyear": 2026.18,
+    "pmra_mas_yr": 7.23,
+    "pmdec_mas_yr": -20.33,
+    "distance_pc": 163.0,
+    "fov_deg": 0.1,
+    "recommended_detector": "D3",
+    "is_named_target": true,
+    "scientific_notes": "Demonstrates multi-epoch infrared variability and strong disk excess across D1-D6."
+  },
+  "target_positions": {
+    "reference": {
+      "epoch_jyear": 2000.0,
+      "ra": 76.956526,
+      "dec": 30.401438,
+      "x": 29.0305,
+      "y": 29.0858,
+      "shift_arcsec": 0.0,
+      "shift_arcsec_from_epoch_0": 0.0,
+      "measured_from_pixels": false
+    },
+    "epoch_0": {
+      "epoch_jyear": 2025.691,
+      "ra": 76.956184,
+      "dec": 30.401204,
+      "x": 29.2018,
+      "y": 28.9496,
+      "shift_arcsec": 0.0,
+      "shift_arcsec_from_epoch_0": 0.0,
+      "step_shift_arcsec": 0.0,
+      "measured_from_pixels": true,
+      "centroid_detector": "D3"
+    },
+    "epoch_1": {
+      "epoch_jyear": 2026.168,
+      "ra": 76.956428,
+      "dec": 30.401029,
+      "x": 29.0798,
+      "y": 28.848,
+      "shift_arcsec": 0.984,
+      "shift_arcsec_from_epoch_0": 0.984,
+      "step_shift_arcsec": 0.984,
+      "measured_from_pixels": true,
+      "centroid_detector": "D3"
+    },
+    "epoch_2": {
+      "epoch_jyear": 2026.694,
+      "ra": 76.956404,
+      "dec": 30.401246,
+      "x": 29.0917,
+      "y": 28.9741,
+      "shift_arcsec": 0.699,
+      "shift_arcsec_from_epoch_0": 0.699,
+      "step_shift_arcsec": 0.785,
+      "measured_from_pixels": true,
+      "centroid_detector": "D3"
+    }
+  },
+  "wcs": {
+    "crpix": [
+      30.0,
+      30.0
+    ],
+    "cdelt": [
+      -0.0017222222222222222,
+      0.0017222222222222222
+    ],
+    "crval": [
+      76.95658698944885,
+      30.4012903271238
+    ],
+    "ctype": [
+      "RA---TAN",
+      "DEC--TAN"
+    ],
+    "pixel_scale_arcsec": 6.2,
+    "width": 59,
+    "height": 59,
+    "fov_deg": 0.1,
+    "north_up": true,
+    "east_left": true
+  },
+  "total_overlapping_visits": 335,
+  "sampled_cutouts_count": 72,
+  "epochs_summary": [
+    {
+      "epoch_index": 0,
+      "epoch_id": "epoch_0",
+      "mean_mjd": 60928.18969600893,
+      "mean_iso": "2025-09-10",
+      "min_iso": "2025-09-01",
+      "max_iso": "2025-09-20",
+      "mean_jyear": 2025.691,
+      "total_visits": 112
+    },
+    {
+      "epoch_index": 1,
+      "epoch_id": "epoch_1",
+      "mean_mjd": 61102.25438989473,
+      "mean_iso": "2026-03-03",
+      "min_iso": "2026-02-20",
+      "max_iso": "2026-03-12",
+      "mean_jyear": 2026.168,
+      "total_visits": 114
+    },
+    {
+      "epoch_index": 2,
+      "epoch_id": "epoch_2",
+      "mean_mjd": 61294.629850477075,
+      "mean_iso": "2026-09-11",
+      "min_iso": "2026-09-02",
+      "max_iso": "2026-09-16",
+      "mean_jyear": 2026.694,
+      "total_visits": 109
+    }
+  ],
+  "detectors": {
+    "D1": {
+      "detector": "D1",
+      "wavelength_range_um": [
+        0.75,
+        1.09
+      ],
+      "spectral_resolution_R": 39,
+      "label": "0.75 - 1.09 \u00b5m",
+      "measured_central_wavelength_um": 0.9539,
+      "norm_vmin": -0.0255,
+      "norm_vmax": 6.2574,
+      "diff_abs_max": 1.2257,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D1_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 1,
+            "bad_pixels": 211,
+            "contaminated_pixels": 326
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D1_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 4,
+            "bad_pixels": 278,
+            "contaminated_pixels": 221
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D1_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 4,
+            "bad_pixels": 283,
+            "contaminated_pixels": 520
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D1_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D1_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D1_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 7,
+        "bad_pixels": 679,
+        "contaminated_pixels": 882
+      }
+    },
+    "D2": {
+      "detector": "D2",
+      "wavelength_range_um": [
+        1.1,
+        1.62
+      ],
+      "spectral_resolution_R": 41,
+      "label": "1.10 - 1.62 \u00b5m",
+      "measured_central_wavelength_um": 1.3092,
+      "norm_vmin": -0.0254,
+      "norm_vmax": 5.9489,
+      "diff_abs_max": 1.4347,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D2_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 4,
+            "bad_pixels": 214,
+            "contaminated_pixels": 253
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D2_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 9,
+            "bad_pixels": 209,
+            "contaminated_pixels": 85
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D2_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 8,
+            "bad_pixels": 254,
+            "contaminated_pixels": 133
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D2_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D2_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D2_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 12,
+        "bad_pixels": 575,
+        "contaminated_pixels": 452
+      }
+    },
+    "D3": {
+      "detector": "D3",
+      "wavelength_range_um": [
+        1.63,
+        2.41
+      ],
+      "spectral_resolution_R": 41,
+      "label": "1.63 - 2.41 \u00b5m",
+      "measured_central_wavelength_um": 2.0475,
+      "norm_vmin": -0.0236,
+      "norm_vmax": 5.2379,
+      "diff_abs_max": 1.1761,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D3_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 12,
+            "bad_pixels": 238,
+            "contaminated_pixels": 190
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D3_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 12,
+            "bad_pixels": 188,
+            "contaminated_pixels": 132
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D3_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 12,
+            "bad_pixels": 162,
+            "contaminated_pixels": 120
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D3_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D3_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D3_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 19,
+        "bad_pixels": 455,
+        "contaminated_pixels": 421
+      }
+    },
+    "D4": {
+      "detector": "D4",
+      "wavelength_range_um": [
+        2.42,
+        3.82
+      ],
+      "spectral_resolution_R": 35,
+      "label": "2.42 - 3.82 \u00b5m",
+      "measured_central_wavelength_um": 3.2102,
+      "norm_vmin": -0.0206,
+      "norm_vmax": 5.8474,
+      "diff_abs_max": 1.5542,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D4_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 32,
+            "bad_pixels": 192,
+            "contaminated_pixels": 173
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D4_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 35,
+            "bad_pixels": 291,
+            "contaminated_pixels": 102
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D4_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 32,
+            "bad_pixels": 225,
+            "contaminated_pixels": 166
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D4_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D4_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D4_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 58,
+        "bad_pixels": 599,
+        "contaminated_pixels": 411
+      }
+    },
+    "D5": {
+      "detector": "D5",
+      "wavelength_range_um": [
+        3.83,
+        4.41
+      ],
+      "spectral_resolution_R": 112,
+      "label": "3.83 - 4.41 \u00b5m",
+      "measured_central_wavelength_um": 4.0676,
+      "norm_vmin": -0.0266,
+      "norm_vmax": 10.2151,
+      "diff_abs_max": 6.4451,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D5_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 17,
+            "bad_pixels": 228,
+            "contaminated_pixels": 460
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D5_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 14,
+            "bad_pixels": 169,
+            "contaminated_pixels": 108
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D5_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 15,
+            "bad_pixels": 174,
+            "contaminated_pixels": 234
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D5_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D5_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D5_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 34,
+        "bad_pixels": 544,
+        "contaminated_pixels": 761
+      }
+    },
+    "D6": {
+      "detector": "D6",
+      "wavelength_range_um": [
+        4.42,
+        5.0
+      ],
+      "spectral_resolution_R": 128,
+      "label": "4.42 - 5.00 \u00b5m",
+      "measured_central_wavelength_um": 4.7402,
+      "norm_vmin": -0.0379,
+      "norm_vmax": 17.637,
+      "diff_abs_max": 8.3619,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D6_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 18,
+            "bad_pixels": 230,
+            "contaminated_pixels": 279
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 19,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D6_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 11,
+            "bad_pixels": 184,
+            "contaminated_pixels": 190
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 4,
+          "total_visits_in_epoch": 18,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D6_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 8,
+            "bad_pixels": 162,
+            "contaminated_pixels": 178
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/D6_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D6_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/D6_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 27,
+        "bad_pixels": 534,
+        "contaminated_pixels": 610
+      }
+    },
+    "ALL": {
+      "detector": "ALL",
+      "wavelength_range_um": [
+        0.75,
+        5.0
+      ],
+      "spectral_resolution_R": null,
+      "label": "0.75 - 5.00 \u00b5m (All Detectors)",
+      "measured_central_wavelength_um": 2.875,
+      "norm_vmin": -0.0208,
+      "norm_vmax": 7.9029,
+      "diff_abs_max": 3.1654,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 112,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 47,
+            "bad_pixels": 993,
+            "contaminated_pixels": 1376
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 114,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 57,
+            "bad_pixels": 873,
+            "contaminated_pixels": 753
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 109,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 52,
+            "bad_pixels": 987,
+            "contaminated_pixels": 1191
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 107,
+        "bad_pixels": 1976,
+        "contaminated_pixels": 2309
+      }
+    },
+    "RGB": {
+      "detector": "RGB",
+      "wavelength_range_um": [
+        1.1,
+        5.0
+      ],
+      "spectral_resolution_R": null,
+      "label": "False-Color IR RGB (R=D6, G=D4, B=D2)",
+      "measured_central_wavelength_um": 3.05,
+      "norm_vmin": -0.0379,
+      "norm_vmax": 17.637,
+      "diff_abs_max": 8.3619,
+      "epochs": [
+        {
+          "epoch_index": 0,
+          "epoch_id": "epoch_0",
+          "mean_mjd": 60928.18969600893,
+          "mean_iso": "2025-09-10",
+          "min_iso": "2025-09-01",
+          "max_iso": "2025-09-20",
+          "mean_jyear": 2025.691,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 112,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/RGB_epoch_0.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_0_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_epoch_0.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 47,
+            "bad_pixels": 993,
+            "contaminated_pixels": 1376
+          }
+        },
+        {
+          "epoch_index": 1,
+          "epoch_id": "epoch_1",
+          "mean_mjd": 61102.25438989473,
+          "mean_iso": "2026-03-03",
+          "min_iso": "2026-02-20",
+          "max_iso": "2026-03-12",
+          "mean_jyear": 2026.168,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 114,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/RGB_epoch_1.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_1_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_epoch_1.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 57,
+            "bad_pixels": 873,
+            "contaminated_pixels": 753
+          }
+        },
+        {
+          "epoch_index": 2,
+          "epoch_id": "epoch_2",
+          "mean_mjd": 61294.629850477075,
+          "mean_iso": "2026-09-11",
+          "min_iso": "2026-09-02",
+          "max_iso": "2026-09-16",
+          "mean_jyear": 2026.694,
+          "visits_coadded": 24,
+          "total_visits_in_epoch": 109,
+          "image_url": "/cache/rw_aurigae_fov0p100_v4/images/RGB_epoch_2.png",
+          "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_epoch_2_flags.png",
+          "grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_epoch_2.npy.gz",
+          "flag_stats": {
+            "saturated_pixels": 52,
+            "bad_pixels": 987,
+            "contaminated_pixels": 1191
+          }
+        }
+      ],
+      "diff_image_url": "/cache/rw_aurigae_fov0p100_v4/images/RGB_diff.png",
+      "sum_image_url": "/cache/rw_aurigae_fov0p100_v4/images/RGB_sum.png",
+      "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/ALL_flags_overlay.png",
+      "diff_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_diff.npy.gz",
+      "sum_grid_url": "/cache/rw_aurigae_fov0p100_v4/grids/ALL_sum.npy.gz",
+      "flag_stats": {
+        "saturated_pixels": 107,
+        "bad_pixels": 1976,
+        "contaminated_pixels": 2309
+      }
+    }
+  },
+  "flags_overlay_url": "/cache/rw_aurigae_fov0p100_v4/images/flags_overlay.png",
+  "gaia_dr3_sources": [
+    {
+      "source_id": "156429997483589120",
+      "ra_j2016": 76.97763097938,
+      "dec_j2016": 30.37559353063,
+      "ra": 76.97757997941233,
+      "dec": 30.37561501390547,
+      "x": 18.484,
+      "y": 14.093,
+      "pmra_mas_yr": -15.553,
+      "pmdec_mas_yr": 7.594,
+      "gmag": 11.876776695251465,
+      "bp_rp": 1.3198269605636597,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.97758244987244,
+          "dec": 30.37561397324715,
+          "x": 18.483,
+          "y": 14.092
+        },
+        "epoch_1": {
+          "ra": 76.97758006120458,
+          "dec": 30.375614979451246,
+          "x": 18.484,
+          "y": 14.093
+        },
+        "epoch_2": {
+          "ra": 76.97757742715989,
+          "dec": 30.375616089017974,
+          "x": 18.485,
+          "y": 14.093
+        }
+      }
+    },
+    {
+      "source_id": "156335847503014272",
+      "ra_j2016": 76.97242679542,
+      "dec_j2016": 30.34197335373,
+      "ra": 76.97241584368751,
+      "dec": 30.34196968454056,
+      "x": 21.068,
+      "y": -5.444,
+      "pmra_mas_yr": -3.341,
+      "pmdec_mas_yr": -1.297,
+      "gmag": 12.06386947631836,
+      "bp_rp": 1.5379359722137451,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.97241637419395,
+          "dec": 30.341969862277644,
+          "x": 21.068,
+          "y": -5.444
+        },
+        "epoch_1": {
+          "ra": 76.97241586125158,
+          "dec": 30.3419696904251,
+          "x": 21.068,
+          "y": -5.444
+        },
+        "epoch_2": {
+          "ra": 76.972415295617,
+          "dec": 30.341969500918943,
+          "x": 21.068,
+          "y": -5.444
+        }
+      }
+    },
+    {
+      "source_id": "156335881862752768",
+      "ra_j2016": 76.98016707435,
+      "dec_j2016": 30.34091890054,
+      "ra": 76.98017600019254,
+      "dec": 30.34089398004183,
+      "x": 17.179,
+      "y": -6.068,
+      "pmra_mas_yr": 2.723,
+      "pmdec_mas_yr": -8.809,
+      "gmag": 12.115860939025879,
+      "bp_rp": 0.9688029885292053,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98017556782114,
+          "dec": 30.340895187201117,
+          "x": 17.179,
+          "y": -6.067
+        },
+        "epoch_1": {
+          "ra": 76.98017598587754,
+          "dec": 30.34089402000859,
+          "x": 17.179,
+          "y": -6.068
+        },
+        "epoch_2": {
+          "ra": 76.98017644687894,
+          "dec": 30.34089273291578,
+          "x": 17.179,
+          "y": -6.068
+        }
+      }
+    },
+    {
+      "source_id": "156430822114424576",
+      "ra_j2016": 76.95608119553,
+      "dec_j2016": 30.4012045891,
+      "ra": 76.95608985791598,
+      "dec": 30.401127080665084,
+      "x": 29.249,
+      "y": 28.905,
+      "pmra_mas_yr": 2.641,
+      "pmdec_mas_yr": -27.398,
+      "gmag": 12.18407154083252,
+      "bp_rp": 1.7740310430526733,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95608943830673,
+          "dec": 30.401130835205848,
+          "x": 29.249,
+          "y": 28.907
+        },
+        "epoch_1": {
+          "ra": 76.95608984402352,
+          "dec": 30.40112720497083,
+          "x": 29.249,
+          "y": 28.905
+        },
+        "epoch_2": {
+          "ra": 76.95609029141768,
+          "dec": 30.40112320181857,
+          "x": 29.249,
+          "y": 28.903
+        }
+      }
+    },
+    {
+      "source_id": "156431234433162368",
+      "ra_j2016": 76.94848092248,
+      "dec_j2016": 30.44960265304,
+      "ra": 76.94847717818084,
+      "dec": 30.449596582045693,
+      "x": 33.059,
+      "y": 57.049,
+      "pmra_mas_yr": -1.141,
+      "pmdec_mas_yr": -2.146,
+      "gmag": 12.594990730285645,
+      "bp_rp": 0.6172490119934082,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.94847735955624,
+          "dec": 30.449596876127178,
+          "x": 33.059,
+          "y": 57.049
+        },
+        "epoch_1": {
+          "ra": 76.94847718418583,
+          "dec": 30.449596591782168,
+          "x": 33.059,
+          "y": 57.049
+        },
+        "epoch_2": {
+          "ra": 76.94847699080046,
+          "dec": 30.449596278227723,
+          "x": 33.06,
+          "y": 57.049
+        }
+      }
+    },
+    {
+      "source_id": "156337294907839232",
+      "ra_j2016": 76.89683902047,
+      "dec_j2016": 30.41302654904,
+      "ra": 76.89683454933429,
+      "dec": 30.413011428133913,
+      "x": 58.921,
+      "y": 35.814,
+      "pmra_mas_yr": -1.363,
+      "pmdec_mas_yr": -5.345,
+      "gmag": 12.780925750732422,
+      "bp_rp": 0.603676974773407,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89683476591792,
+          "dec": 30.413012160596885,
+          "x": 58.921,
+          "y": 35.814
+        },
+        "epoch_1": {
+          "ra": 76.89683455650496,
+          "dec": 30.413011452384364,
+          "x": 58.921,
+          "y": 35.814
+        },
+        "epoch_2": {
+          "ra": 76.89683432557997,
+          "dec": 30.413010671420473,
+          "x": 58.921,
+          "y": 35.813
+        }
+      }
+    },
+    {
+      "source_id": "156430886538071552",
+      "ra_j2016": 76.92874438233,
+      "dec_j2016": 30.4094224032,
+      "ra": 76.92874601917126,
+      "dec": 30.409420236200187,
+      "x": 42.942,
+      "y": 33.722,
+      "pmra_mas_yr": 0.499,
+      "pmdec_mas_yr": -0.766,
+      "gmag": 12.800509452819824,
+      "bp_rp": 0.7079939842224121,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.92874593988198,
+          "dec": 30.409420341170556,
+          "x": 42.942,
+          "y": 33.722
+        },
+        "epoch_1": {
+          "ra": 76.92874601654614,
+          "dec": 30.40942023967555,
+          "x": 42.942,
+          "y": 33.722
+        },
+        "epoch_2": {
+          "ra": 76.92874610108564,
+          "dec": 30.40942012775444,
+          "x": 42.942,
+          "y": 33.722
+        }
+      }
+    },
+    {
+      "source_id": "156430817820015232",
+      "ra_j2016": 76.95654431103,
+      "dec_j2016": 30.40131614989,
+      "ra": 76.95656040255506,
+      "dec": 30.401246619182157,
+      "x": 29.013,
+      "y": 28.975,
+      "pmra_mas_yr": 4.906,
+      "pmdec_mas_yr": -24.578,
+      "gmag": 13.035076141357422,
+      "bp_rp": 1.2287030220031738,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95655962307544,
+          "dec": 30.401249987278536,
+          "x": 29.014,
+          "y": 28.977
+        },
+        "epoch_1": {
+          "ra": 76.95656037674797,
+          "dec": 30.40124673069345,
+          "x": 29.013,
+          "y": 28.975
+        },
+        "epoch_2": {
+          "ra": 76.95656120784173,
+          "dec": 30.401243139574465,
+          "x": 29.013,
+          "y": 28.973
+        }
+      }
+    },
+    {
+      "source_id": "156434116353478016",
+      "ra_j2016": 76.89427678411,
+      "dec_j2016": 30.44158762619,
+      "ra": 76.89428396364815,
+      "dec": 30.44158174190833,
+      "x": 60.189,
+      "y": 52.404,
+      "pmra_mas_yr": 2.188,
+      "pmdec_mas_yr": -2.08,
+      "gmag": 13.91855525970459,
+      "bp_rp": 1.6072750091552734,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89428361586836,
+          "dec": 30.441582026945376,
+          "x": 60.189,
+          "y": 52.404
+        },
+        "epoch_1": {
+          "ra": 76.89428395213382,
+          "dec": 30.44158175134536,
+          "x": 60.189,
+          "y": 52.404
+        },
+        "epoch_2": {
+          "ra": 76.89428432294226,
+          "dec": 30.44158144743423,
+          "x": 60.189,
+          "y": 52.403
+        }
+      }
+    },
+    {
+      "source_id": "156431234433162496",
+      "ra_j2016": 76.95709126406,
+      "dec_j2016": 30.44324428238,
+      "ra": 76.95711797121103,
+      "dec": 30.44322600432793,
+      "x": 28.734,
+      "y": 53.35,
+      "pmra_mas_yr": 8.139,
+      "pmdec_mas_yr": -6.461,
+      "gmag": 14.647100448608398,
+      "bp_rp": 1.0677319765090942,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95711667750578,
+          "dec": 30.443226889724485,
+          "x": 28.735,
+          "y": 53.35
+        },
+        "epoch_1": {
+          "ra": 76.95711792837889,
+          "dec": 30.44322603364175,
+          "x": 28.734,
+          "y": 53.35
+        },
+        "epoch_2": {
+          "ra": 76.95711930774839,
+          "dec": 30.44322508961756,
+          "x": 28.734,
+          "y": 53.349
+        }
+      }
+    },
+    {
+      "source_id": "156430890833907584",
+      "ra_j2016": 76.93217258343,
+      "dec_j2016": 30.40974656921,
+      "ra": 76.93217266871659,
+      "dec": 30.40972782720769,
+      "x": 41.226,
+      "y": 33.901,
+      "pmra_mas_yr": 0.026,
+      "pmdec_mas_yr": -6.625,
+      "gmag": 14.66094970703125,
+      "bp_rp": 1.245568037033081,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.93217266458528,
+          "dec": 30.40972873507805,
+          "x": 41.226,
+          "y": 33.901
+        },
+        "epoch_1": {
+          "ra": 76.93217266857982,
+          "dec": 30.40972785726556,
+          "x": 41.226,
+          "y": 33.901
+        },
+        "epoch_2": {
+          "ra": 76.93217267298469,
+          "dec": 30.409726889279447,
+          "x": 41.226,
+          "y": 33.9
+        }
+      }
+    },
+    {
+      "source_id": "156431264495203200",
+      "ra_j2016": 76.96899051871,
+      "dec_j2016": 30.45300811467,
+      "ra": 76.96899362977011,
+      "dec": 30.45300013128422,
+      "x": 22.79,
+      "y": 59.025,
+      "pmra_mas_yr": 0.948,
+      "pmdec_mas_yr": -2.822,
+      "gmag": 14.769740104675293,
+      "bp_rp": 1.029345989227295,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96899347906907,
+          "dec": 30.45300051800275,
+          "x": 22.79,
+          "y": 59.026
+        },
+        "epoch_1": {
+          "ra": 76.96899362478068,
+          "dec": 30.453000144087746,
+          "x": 22.79,
+          "y": 59.025
+        },
+        "epoch_2": {
+          "ra": 76.96899378546055,
+          "dec": 30.45299973176219,
+          "x": 22.79,
+          "y": 59.025
+        }
+      }
+    },
+    {
+      "source_id": "156429894403506048",
+      "ra_j2016": 77.03264452462,
+      "dec_j2016": 30.38944659733,
+      "ra": 77.03270587226778,
+      "dec": 30.389399220362797,
+      "x": -9.126,
+      "y": 22.108,
+      "pmra_mas_yr": 18.706,
+      "pmdec_mas_yr": -16.747,
+      "gmag": 14.771430969238281,
+      "bp_rp": 1.3806209564208984,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.03270290056363,
+          "dec": 30.389401515323414,
+          "x": -9.124,
+          "y": 22.11
+        },
+        "epoch_1": {
+          "ra": 77.0327057738803,
+          "dec": 30.38939929634461,
+          "x": -9.126,
+          "y": 22.108
+        },
+        "epoch_2": {
+          "ra": 77.03270894235929,
+          "dec": 30.389396849420315,
+          "x": -9.127,
+          "y": 22.107
+        }
+      }
+    },
+    {
+      "source_id": "156430027546480512",
+      "ra_j2016": 76.98404373996,
+      "dec_j2016": 30.39543046955,
+      "ra": 76.98404273306967,
+      "dec": 30.395429315325558,
+      "x": 15.249,
+      "y": 25.598,
+      "pmra_mas_yr": -0.307,
+      "pmdec_mas_yr": -0.408,
+      "gmag": 14.77597427368164,
+      "bp_rp": 1.6393680572509766,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98404278184385,
+          "dec": 30.395429371236666,
+          "x": 15.249,
+          "y": 25.599
+        },
+        "epoch_1": {
+          "ra": 76.9840427346845,
+          "dec": 30.395429317176664,
+          "x": 15.249,
+          "y": 25.598
+        },
+        "epoch_2": {
+          "ra": 76.98404268268067,
+          "dec": 30.395429257563332,
+          "x": 15.249,
+          "y": 25.598
+        }
+      }
+    },
+    {
+      "source_id": "156430238000750592",
+      "ra_j2016": 76.99491392791,
+      "dec_j2016": 30.41284169487,
+      "ra": 76.9949275282718,
+      "dec": 30.412824418279378,
+      "x": 9.801,
+      "y": 35.7,
+      "pmra_mas_yr": 4.146,
+      "pmdec_mas_yr": -6.107,
+      "gmag": 14.80481243133545,
+      "bp_rp": 1.0672780275344849,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.99492686946475,
+          "dec": 30.412825255164627,
+          "x": 9.801,
+          "y": 35.701
+        },
+        "epoch_1": {
+          "ra": 76.99492750645994,
+          "dec": 30.41282444598706,
+          "x": 9.801,
+          "y": 35.7
+        },
+        "epoch_2": {
+          "ra": 76.9949282088907,
+          "dec": 30.412823553686437,
+          "x": 9.801,
+          "y": 35.7
+        }
+      }
+    },
+    {
+      "source_id": "156430955257551360",
+      "ra_j2016": 76.97006610777,
+      "dec_j2016": 30.43066343287,
+      "ra": 76.97005871905277,
+      "dec": 30.430684703981548,
+      "x": 22.255,
+      "y": 46.068,
+      "pmra_mas_yr": -2.252,
+      "pmdec_mas_yr": 7.519,
+      "gmag": 14.84876537322998,
+      "bp_rp": 1.1902650594711304,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.97005907696538,
+          "dec": 30.430683673600083,
+          "x": 22.255,
+          "y": 46.068
+        },
+        "epoch_1": {
+          "ra": 76.9700587309026,
+          "dec": 30.430684669867567,
+          "x": 22.255,
+          "y": 46.068
+        },
+        "epoch_2": {
+          "ra": 76.97005834929035,
+          "dec": 30.430685768476984,
+          "x": 22.255,
+          "y": 46.069
+        }
+      }
+    },
+    {
+      "source_id": "156337329267576576",
+      "ra_j2016": 76.90638861515,
+      "dec_j2016": 30.41905501277,
+      "ra": 76.90639040305885,
+      "dec": 30.419051303975266,
+      "x": 54.134,
+      "y": 39.318,
+      "pmra_mas_yr": 0.545,
+      "pmdec_mas_yr": -1.311,
+      "gmag": 14.872919082641602,
+      "bp_rp": 1.5148049592971802,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.9063903164518,
+          "dec": 30.41905148363083,
+          "x": 54.134,
+          "y": 39.319
+        },
+        "epoch_1": {
+          "ra": 76.90639040019146,
+          "dec": 30.419051309923322,
+          "x": 54.134,
+          "y": 39.318
+        },
+        "epoch_2": {
+          "ra": 76.90639049253328,
+          "dec": 30.419051118371662,
+          "x": 54.134,
+          "y": 39.318
+        }
+      }
+    },
+    {
+      "source_id": "156431268792897024",
+      "ra_j2016": 76.96044071229,
+      "dec_j2016": 30.45438420103,
+      "ra": 76.96043978355313,
+      "dec": 30.45438972037286,
+      "x": 27.072,
+      "y": 59.832,
+      "pmra_mas_yr": -0.283,
+      "pmdec_mas_yr": 1.951,
+      "gmag": 15.014632225036621,
+      "bp_rp": 1.125465989112854,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96043982854152,
+          "dec": 30.4543894530136,
+          "x": 27.072,
+          "y": 59.832
+        },
+        "epoch_1": {
+          "ra": 76.9604397850426,
+          "dec": 30.454389711521095,
+          "x": 27.072,
+          "y": 59.832
+        },
+        "epoch_2": {
+          "ra": 76.96043973707523,
+          "dec": 30.45438999658388,
+          "x": 27.072,
+          "y": 59.832
+        }
+      }
+    },
+    {
+      "source_id": "156336878294789888",
+      "ra_j2016": 76.88927880249,
+      "dec_j2016": 30.37259618004,
+      "ra": 76.88928812798366,
+      "dec": 30.37257856397199,
+      "x": 62.714,
+      "y": 12.339,
+      "pmra_mas_yr": 2.844,
+      "pmdec_mas_yr": -6.227,
+      "gmag": 15.182472229003906,
+      "bp_rp": 1.1454750299453735,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.88928767625295,
+          "dec": 30.37257941730165,
+          "x": 62.714,
+          "y": 12.339
+        },
+        "epoch_1": {
+          "ra": 76.88928811302772,
+          "dec": 30.37257859222412,
+          "x": 62.714,
+          "y": 12.339
+        },
+        "epoch_2": {
+          "ra": 76.88928859467032,
+          "dec": 30.372577682390194,
+          "x": 62.713,
+          "y": 12.338
+        }
+      }
+    },
+    {
+      "source_id": "156429722604693120",
+      "ra_j2016": 76.9880552295,
+      "dec_j2016": 30.35649351898,
+      "ra": 76.98805638679876,
+      "dec": 30.356486517250833,
+      "x": 13.233,
+      "y": 2.987,
+      "pmra_mas_yr": 0.353,
+      "pmdec_mas_yr": -2.475,
+      "gmag": 15.244281768798828,
+      "bp_rp": 0.7909449934959412,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98805633073874,
+          "dec": 30.356486856417494,
+          "x": 13.233,
+          "y": 2.987
+        },
+        "epoch_1": {
+          "ra": 76.98805638494272,
+          "dec": 30.35648652847999,
+          "x": 13.233,
+          "y": 2.987
+        },
+        "epoch_2": {
+          "ra": 76.98805644471483,
+          "dec": 30.356486166855003,
+          "x": 13.233,
+          "y": 2.987
+        }
+      }
+    },
+    {
+      "source_id": "156430856476049024",
+      "ra_j2016": 76.96525901564,
+      "dec_j2016": 30.41003829119,
+      "ra": 76.96526084602712,
+      "dec": 30.41003480305582,
+      "x": 24.656,
+      "y": 34.078,
+      "pmra_mas_yr": 0.558,
+      "pmdec_mas_yr": -1.233,
+      "gmag": 15.262967109680176,
+      "bp_rp": 1.1431599855422974,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96526075736242,
+          "dec": 30.410034972022487,
+          "x": 24.656,
+          "y": 34.078
+        },
+        "epoch_1": {
+          "ra": 76.9652608430916,
+          "dec": 30.410034808649982,
+          "x": 24.656,
+          "y": 34.078
+        },
+        "epoch_2": {
+          "ra": 76.96526093762735,
+          "dec": 30.410034628494987,
+          "x": 24.656,
+          "y": 34.078
+        }
+      }
+    },
+    {
+      "source_id": "156431131353952640",
+      "ra_j2016": 76.94110527923,
+      "dec_j2016": 30.43768694204,
+      "ra": 76.94110745466142,
+      "dec": 30.43769287724313,
+      "x": 36.749,
+      "y": 50.137,
+      "pmra_mas_yr": 0.663,
+      "pmdec_mas_yr": 2.098,
+      "gmag": 15.323735237121582,
+      "bp_rp": 1.2433539628982544,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.94110734928262,
+          "dec": 30.437692589739427,
+          "x": 36.749,
+          "y": 50.137
+        },
+        "epoch_1": {
+          "ra": 76.94110745117253,
+          "dec": 30.437692867724415,
+          "x": 36.749,
+          "y": 50.137
+        },
+        "epoch_2": {
+          "ra": 76.94110756352913,
+          "dec": 30.437693174265533,
+          "x": 36.749,
+          "y": 50.138
+        }
+      }
+    },
+    {
+      "source_id": "156430542942606720",
+      "ra_j2016": 77.01401292479,
+      "dec_j2016": 30.41858771952,
+      "ra": 77.0140186723144,
+      "dec": 30.4185682080346,
+      "x": 0.243,
+      "y": 39.04,
+      "pmra_mas_yr": 1.752,
+      "pmdec_mas_yr": -6.897,
+      "gmag": 15.333283424377441,
+      "bp_rp": 1.172745943069458,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.01401839390199,
+          "dec": 30.418569153179057,
+          "x": 0.243,
+          "y": 39.04
+        },
+        "epoch_1": {
+          "ra": 77.01401866309669,
+          "dec": 30.418568239326532,
+          "x": 0.243,
+          "y": 39.04
+        },
+        "epoch_2": {
+          "ra": 77.01401895994452,
+          "dec": 30.418567231598196,
+          "x": 0.243,
+          "y": 39.039
+        }
+      }
+    },
+    {
+      "source_id": "156434258090141312",
+      "ra_j2016": 76.927993074,
+      "dec_j2016": 30.4562394397,
+      "ra": 76.9279962967451,
+      "dec": 30.456232664289313,
+      "x": 43.31,
+      "y": 60.904,
+      "pmra_mas_yr": 0.982,
+      "pmdec_mas_yr": -2.395,
+      "gmag": 15.399859428405762,
+      "bp_rp": 1.1946640014648438,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.92799614063401,
+          "dec": 30.456232992493018,
+          "x": 43.31,
+          "y": 60.904
+        },
+        "epoch_1": {
+          "ra": 76.92799629157656,
+          "dec": 30.456232675155523,
+          "x": 43.31,
+          "y": 60.904
+        },
+        "epoch_2": {
+          "ra": 76.92799645802475,
+          "dec": 30.45623232521939,
+          "x": 43.31,
+          "y": 60.904
+        }
+      }
+    },
+    {
+      "source_id": "156431337512370816",
+      "ra_j2016": 76.94974210124,
+      "dec_j2016": 30.46844187011,
+      "ra": 76.9497430530863,
+      "dec": 30.468424401149353,
+      "x": 32.425,
+      "y": 67.981,
+      "pmra_mas_yr": 0.29,
+      "pmdec_mas_yr": -6.175,
+      "gmag": 15.523834228515625,
+      "bp_rp": 1.366170048713684,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.94974300697847,
+          "dec": 30.468425247353053,
+          "x": 32.425,
+          "y": 67.982
+        },
+        "epoch_1": {
+          "ra": 76.94974305155975,
+          "dec": 30.46842442916555,
+          "x": 32.425,
+          "y": 67.981
+        },
+        "epoch_2": {
+          "ra": 76.94974310072065,
+          "dec": 30.468423526929445,
+          "x": 32.425,
+          "y": 67.981
+        }
+      }
+    },
+    {
+      "source_id": "156431642452330624",
+      "ra_j2016": 76.96756147486,
+      "dec_j2016": 30.46791978319,
+      "ra": 76.96756413345135,
+      "dec": 30.467918532780164,
+      "x": 23.506,
+      "y": 67.688,
+      "pmra_mas_yr": 0.81,
+      "pmdec_mas_yr": -0.442,
+      "gmag": 15.606432914733887,
+      "bp_rp": 1.1694270372390747,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96756400466808,
+          "dec": 30.467918593350536,
+          "x": 23.506,
+          "y": 67.688
+        },
+        "epoch_1": {
+          "ra": 76.96756412918758,
+          "dec": 30.467918534785532,
+          "x": 23.506,
+          "y": 67.688
+        },
+        "epoch_2": {
+          "ra": 76.96756426649839,
+          "dec": 30.46791847020443,
+          "x": 23.506,
+          "y": 67.688
+        }
+      }
+    },
+    {
+      "source_id": "156336126676738048",
+      "ra_j2016": 76.95046657674,
+      "dec_j2016": 30.3482196021,
+      "ra": 76.95046818633111,
+      "dec": 30.348217174833888,
+      "x": 32.066,
+      "y": -1.817,
+      "pmra_mas_yr": 0.491,
+      "pmdec_mas_yr": -0.858,
+      "gmag": 15.690369606018066,
+      "bp_rp": 1.528965950012207,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95046810836186,
+          "dec": 30.34821729241167,
+          "x": 32.066,
+          "y": -1.817
+        },
+        "epoch_1": {
+          "ra": 76.95046818374969,
+          "dec": 30.34821717872667,
+          "x": 32.066,
+          "y": -1.817
+        },
+        "epoch_2": {
+          "ra": 76.95046826688178,
+          "dec": 30.34821705336333,
+          "x": 32.066,
+          "y": -1.817
+        }
+      }
+    },
+    {
+      "source_id": "156336023597525504",
+      "ra_j2016": 76.93852315189,
+      "dec_j2016": 30.3454789568,
+      "ra": 76.93852570225012,
+      "dec": 30.34547642769054,
+      "x": 38.05,
+      "y": -3.407,
+      "pmra_mas_yr": 0.778,
+      "pmdec_mas_yr": -0.894,
+      "gmag": 15.819055557250977,
+      "bp_rp": 1.6505939960479736,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.93852557870962,
+          "dec": 30.345476550201656,
+          "x": 38.05,
+          "y": -3.407
+        },
+        "epoch_1": {
+          "ra": 76.93852569815992,
+          "dec": 30.345476431746647,
+          "x": 38.05,
+          "y": -3.407
+        },
+        "epoch_2": {
+          "ra": 76.9385258298808,
+          "dec": 30.34547630112331,
+          "x": 38.05,
+          "y": -3.407
+        }
+      }
+    },
+    {
+      "source_id": "156429718308750208",
+      "ra_j2016": 76.98842149971,
+      "dec_j2016": 30.35129193439,
+      "ra": 76.98843121001124,
+      "dec": 30.35127598742103,
+      "x": 13.044,
+      "y": -0.038,
+      "pmra_mas_yr": 2.962,
+      "pmdec_mas_yr": -5.637,
+      "gmag": 15.862445831298828,
+      "bp_rp": 1.1510950326919556,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98843073964031,
+          "dec": 30.351276759898838,
+          "x": 13.044,
+          "y": -0.038
+        },
+        "epoch_1": {
+          "ra": 76.98843119443816,
+          "dec": 30.351276012996316,
+          "x": 13.044,
+          "y": -0.038
+        },
+        "epoch_2": {
+          "ra": 76.98843169595528,
+          "dec": 30.351275189367936,
+          "x": 13.044,
+          "y": -0.039
+        }
+      }
+    },
+    {
+      "source_id": "156430925195524224",
+      "ra_j2016": 76.95468943738,
+      "dec_j2016": 30.4203155624,
+      "ra": 76.95466687663698,
+      "dec": 30.420287419690283,
+      "x": 29.961,
+      "y": 40.031,
+      "pmra_mas_yr": -6.877,
+      "pmdec_mas_yr": -9.948,
+      "gmag": 15.92800521850586,
+      "bp_rp": 1.3938039541244507,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95466796948843,
+          "dec": 30.42028878293491,
+          "x": 29.961,
+          "y": 40.031
+        },
+        "epoch_1": {
+          "ra": 76.95466691281922,
+          "dec": 30.42028746482474,
+          "x": 29.961,
+          "y": 40.031
+        },
+        "epoch_2": {
+          "ra": 76.9546657476033,
+          "dec": 30.420286011311195,
+          "x": 29.962,
+          "y": 40.03
+        }
+      }
+    },
+    {
+      "source_id": "156434155010928000",
+      "ra_j2016": 76.92002087769,
+      "dec_j2016": 30.45614857445,
+      "ra": 76.92003542268871,
+      "dec": 30.456112578488824,
+      "x": 47.295,
+      "y": 60.835,
+      "pmra_mas_yr": 4.432,
+      "pmdec_mas_yr": -12.724,
+      "gmag": 15.934103012084961,
+      "bp_rp": 1.3024660348892212,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.92003471812319,
+          "dec": 30.45611432214816,
+          "x": 47.295,
+          "y": 60.836
+        },
+        "epoch_1": {
+          "ra": 76.92003539936188,
+          "dec": 30.456112636218084,
+          "x": 47.295,
+          "y": 60.835
+        },
+        "epoch_2": {
+          "ra": 76.92003615058104,
+          "dec": 30.456110777100225,
+          "x": 47.295,
+          "y": 60.834
+        }
+      }
+    },
+    {
+      "source_id": "156336156742208512",
+      "ra_j2016": 76.96446653413,
+      "dec_j2016": 30.36248017875,
+      "ra": 76.96447417342563,
+      "dec": 30.36248161304338,
+      "x": 25.048,
+      "y": 6.466,
+      "pmra_mas_yr": 2.33,
+      "pmdec_mas_yr": 0.507,
+      "gmag": 16.005334854125977,
+      "bp_rp": 1.276394009590149,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96447380337497,
+          "dec": 30.362481543565625,
+          "x": 25.049,
+          "y": 6.466
+        },
+        "epoch_1": {
+          "ra": 76.96447416117395,
+          "dec": 30.362481610743107,
+          "x": 25.048,
+          "y": 6.466
+        },
+        "epoch_2": {
+          "ra": 76.96447455572796,
+          "dec": 30.362481684821418,
+          "x": 25.048,
+          "y": 6.466
+        }
+      }
+    },
+    {
+      "source_id": "156430989619218176",
+      "ra_j2016": 76.98236612642,
+      "dec_j2016": 30.42679492479,
+      "ra": 76.98236707785985,
+      "dec": 30.426794138333147,
+      "x": 16.093,
+      "y": 43.81,
+      "pmra_mas_yr": 0.29,
+      "pmdec_mas_yr": -0.278,
+      "gmag": 16.0068359375,
+      "bp_rp": 1.1200820207595825,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98236703177172,
+          "dec": 30.426794176429436,
+          "x": 16.093,
+          "y": 43.81
+        },
+        "epoch_1": {
+          "ra": 76.98236707633396,
+          "dec": 30.426794139594442,
+          "x": 16.093,
+          "y": 43.81
+        },
+        "epoch_2": {
+          "ra": 76.98236712547387,
+          "dec": 30.426794098975552,
+          "x": 16.092,
+          "y": 43.81
+        }
+      }
+    },
+    {
+      "source_id": "156337260548477184",
+      "ra_j2016": 76.91357566273,
+      "dec_j2016": 30.4177799271,
+      "ra": 76.91356980371562,
+      "dec": 30.41775649747524,
+      "x": 50.54,
+      "y": 38.565,
+      "pmra_mas_yr": -1.786,
+      "pmdec_mas_yr": -8.282,
+      "gmag": 16.032081604003906,
+      "bp_rp": 1.3150930404663086,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.91357008752863,
+          "dec": 30.41775763241599,
+          "x": 50.54,
+          "y": 38.566
+        },
+        "epoch_1": {
+          "ra": 76.91356981311212,
+          "dec": 30.417756535050984,
+          "x": 50.54,
+          "y": 38.565
+        },
+        "epoch_2": {
+          "ra": 76.91356951050608,
+          "dec": 30.41775532495874,
+          "x": 50.54,
+          "y": 38.564
+        }
+      }
+    },
+    {
+      "source_id": "156337329267577088",
+      "ra_j2016": 76.89935388543,
+      "dec_j2016": 30.41619320221,
+      "ra": 76.89937017296418,
+      "dec": 30.416178270844732,
+      "x": 57.65,
+      "y": 37.652,
+      "pmra_mas_yr": 4.965,
+      "pmdec_mas_yr": -5.278,
+      "gmag": 16.078937530517578,
+      "bp_rp": 1.2940419912338257,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89936938398938,
+          "dec": 30.4161789941263,
+          "x": 57.651,
+          "y": 37.652
+        },
+        "epoch_1": {
+          "ra": 76.89937014684271,
+          "dec": 30.416178294791212,
+          "x": 57.65,
+          "y": 37.652
+        },
+        "epoch_2": {
+          "ra": 76.89937098806044,
+          "dec": 30.416177523616657,
+          "x": 57.65,
+          "y": 37.651
+        }
+      }
+    },
+    {
+      "source_id": "156337290611724416",
+      "ra_j2016": 76.89879689788,
+      "dec_j2016": 30.40987590376,
+      "ra": 76.8987995024049,
+      "dec": 30.40986786662358,
+      "x": 57.938,
+      "y": 33.988,
+      "pmra_mas_yr": 0.794,
+      "pmdec_mas_yr": -2.841,
+      "gmag": 16.192737579345703,
+      "bp_rp": 1.0798840522766113,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89879937624065,
+          "dec": 30.40986825594581,
+          "x": 57.938,
+          "y": 33.988
+        },
+        "epoch_1": {
+          "ra": 76.89879949822785,
+          "dec": 30.409867879513296,
+          "x": 57.938,
+          "y": 33.988
+        },
+        "epoch_2": {
+          "ra": 76.89879963274622,
+          "dec": 30.40986746441163,
+          "x": 57.938,
+          "y": 33.988
+        }
+      }
+    },
+    {
+      "source_id": "156336092317002368",
+      "ra_j2016": 76.92310264546,
+      "dec_j2016": 30.35566711645,
+      "ra": 76.92310257005592,
+      "dec": 30.355654335111673,
+      "x": 45.777,
+      "y": 2.504,
+      "pmra_mas_yr": -0.023,
+      "pmdec_mas_yr": -4.518,
+      "gmag": 16.26360321044922,
+      "bp_rp": 1.2769989967346191,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.92310257370853,
+          "dec": 30.35565495424501,
+          "x": 45.777,
+          "y": 2.505
+        },
+        "epoch_1": {
+          "ra": 76.92310257017685,
+          "dec": 30.355654355610007,
+          "x": 45.777,
+          "y": 2.504
+        },
+        "epoch_2": {
+          "ra": 76.92310256628238,
+          "dec": 30.355653695480004,
+          "x": 45.777,
+          "y": 2.504
+        }
+      }
+    },
+    {
+      "source_id": "156434150713226240",
+      "ra_j2016": 76.91743816483,
+      "dec_j2016": 30.45413811005,
+      "ra": 76.91745508223282,
+      "dec": 30.454112357830482,
+      "x": 48.587,
+      "y": 59.674,
+      "pmra_mas_yr": 5.155,
+      "pmdec_mas_yr": -9.103,
+      "gmag": 16.269577026367188,
+      "bp_rp": 1.4029239416122437,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.917454262747,
+          "dec": 30.454113605278728,
+          "x": 48.587,
+          "y": 59.675
+        },
+        "epoch_1": {
+          "ra": 76.91745505510119,
+          "dec": 30.454112399131134,
+          "x": 48.587,
+          "y": 59.674
+        },
+        "epoch_2": {
+          "ra": 76.91745592885023,
+          "dec": 30.45411106908157,
+          "x": 48.587,
+          "y": 59.674
+        }
+      }
+    },
+    {
+      "source_id": "156430375439694592",
+      "ra_j2016": 77.03280720903,
+      "dec_j2016": 30.4151264999,
+      "ra": 77.03281793605048,
+      "dec": 30.415115212263466,
+      "x": -9.172,
+      "y": 37.04,
+      "pmra_mas_yr": 3.27,
+      "pmdec_mas_yr": -3.99,
+      "gmag": 16.284011840820312,
+      "bp_rp": 1.220358967781067,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.03281741642921,
+          "dec": 30.41511575904127,
+          "x": -9.171,
+          "y": 37.041
+        },
+        "epoch_1": {
+          "ra": 77.0328179188468,
+          "dec": 30.415115230366226,
+          "x": -9.172,
+          "y": 37.04
+        },
+        "epoch_2": {
+          "ra": 77.0328184728754,
+          "dec": 30.415114647382858,
+          "x": -9.172,
+          "y": 37.04
+        }
+      }
+    },
+    {
+      "source_id": "156336023597523712",
+      "ra_j2016": 76.94597822565,
+      "dec_j2016": 30.34703333206,
+      "ra": 76.94598165131649,
+      "dec": 30.347026517043574,
+      "x": 34.314,
+      "y": -2.508,
+      "pmra_mas_yr": 1.045,
+      "pmdec_mas_yr": -2.409,
+      "gmag": 16.324283599853516,
+      "bp_rp": 1.057574987411499,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.9459814853758,
+          "dec": 30.3470268471658,
+          "x": 34.314,
+          "y": -2.508
+        },
+        "epoch_1": {
+          "ra": 76.94598164582251,
+          "dec": 30.347026527973295,
+          "x": 34.314,
+          "y": -2.508
+        },
+        "epoch_2": {
+          "ra": 76.94598182275118,
+          "dec": 30.347026175991633,
+          "x": 34.314,
+          "y": -2.508
+        }
+      }
+    },
+    {
+      "source_id": "156336916948843648",
+      "ra_j2016": 76.90387278035,
+      "dec_j2016": 30.37878481812,
+      "ra": 76.90387505284478,
+      "dec": 30.378750683629427,
+      "x": 55.405,
+      "y": 15.919,
+      "pmra_mas_yr": 0.693,
+      "pmdec_mas_yr": -12.066,
+      "gmag": 16.347021102905273,
+      "bp_rp": 1.4505620002746582,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.90387494276423,
+          "dec": 30.37875233711832,
+          "x": 55.405,
+          "y": 15.92
+        },
+        "epoch_1": {
+          "ra": 76.90387504920022,
+          "dec": 30.378750738373313,
+          "x": 55.405,
+          "y": 15.919
+        },
+        "epoch_2": {
+          "ra": 76.90387516656989,
+          "dec": 30.378748975396643,
+          "x": 55.405,
+          "y": 15.918
+        }
+      }
+    },
+    {
+      "source_id": "156430925195528576",
+      "ra_j2016": 76.94723091825,
+      "dec_j2016": 30.41596421419,
+      "ra": 76.94723567492014,
+      "dec": 30.41594110989816,
+      "x": 33.683,
+      "y": 37.507,
+      "pmra_mas_yr": 1.45,
+      "pmdec_mas_yr": -8.167,
+      "gmag": 16.353988647460938,
+      "bp_rp": 1.3205389976501465,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.94723544450511,
+          "dec": 30.41594222907965,
+          "x": 33.683,
+          "y": 37.508
+        },
+        "epoch_1": {
+          "ra": 76.94723566729152,
+          "dec": 30.41594114695214,
+          "x": 33.683,
+          "y": 37.507
+        },
+        "epoch_2": {
+          "ra": 76.94723591296375,
+          "dec": 30.415939953662683,
+          "x": 33.682,
+          "y": 37.506
+        }
+      }
+    },
+    {
+      "source_id": "156430852178333952",
+      "ra_j2016": 76.95546227043,
+      "dec_j2016": 30.41697269463,
+      "ra": 76.9554634842137,
+      "dec": 30.416961480547396,
+      "x": 29.563,
+      "y": 38.099,
+      "pmra_mas_yr": 0.37,
+      "pmdec_mas_yr": -3.964,
+      "gmag": 16.37201690673828,
+      "bp_rp": 1.2045999765396118,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95546342541752,
+          "dec": 30.416962023762217,
+          "x": 29.563,
+          "y": 38.1
+        },
+        "epoch_1": {
+          "ra": 76.95546348226706,
+          "dec": 30.416961498532217,
+          "x": 29.563,
+          "y": 38.099
+        },
+        "epoch_2": {
+          "ra": 76.95546354495652,
+          "dec": 30.416960919347773,
+          "x": 29.563,
+          "y": 38.099
+        }
+      }
+    },
+    {
+      "source_id": "156431096994224384",
+      "ra_j2016": 76.9252163969,
+      "dec_j2016": 30.41956464636,
+      "ra": 76.92520942894038,
+      "dec": 30.41955441959176,
+      "x": 44.711,
+      "y": 39.607,
+      "pmra_mas_yr": -2.124,
+      "pmdec_mas_yr": -3.615,
+      "gmag": 16.38702964782715,
+      "bp_rp": 1.2070729732513428,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.92520976647121,
+          "dec": 30.41955491498066,
+          "x": 44.711,
+          "y": 39.607
+        },
+        "epoch_1": {
+          "ra": 76.9252094401154,
+          "dec": 30.419554435993152,
+          "x": 44.711,
+          "y": 39.607
+        },
+        "epoch_2": {
+          "ra": 76.92520908023455,
+          "dec": 30.419553907801465,
+          "x": 44.711,
+          "y": 39.607
+        }
+      }
+    },
+    {
+      "source_id": "156430134921542272",
+      "ra_j2016": 76.99070635466,
+      "dec_j2016": 30.39350348311,
+      "ra": 76.99070479351893,
+      "dec": 30.3934956440023,
+      "x": 11.912,
+      "y": 24.477,
+      "pmra_mas_yr": -0.476,
+      "pmdec_mas_yr": -2.771,
+      "gmag": 16.396724700927734,
+      "bp_rp": 1.2126669883728027,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.99070486914125,
+          "dec": 30.39349602373193,
+          "x": 11.912,
+          "y": 24.477
+        },
+        "epoch_1": {
+          "ra": 76.99070479602264,
+          "dec": 30.39349565657443,
+          "x": 11.912,
+          "y": 24.477
+        },
+        "epoch_2": {
+          "ra": 76.99070471539291,
+          "dec": 30.39349525170055,
+          "x": 11.912,
+          "y": 24.476
+        }
+      }
+    },
+    {
+      "source_id": "156336023597527808",
+      "ra_j2016": 76.93349313733,
+      "dec_j2016": 30.33850587284,
+      "ra": 76.93349337005836,
+      "dec": 30.33849311979148,
+      "x": 40.573,
+      "y": -7.462,
+      "pmra_mas_yr": 0.071,
+      "pmdec_mas_yr": -4.508,
+      "gmag": 16.407197952270508,
+      "bp_rp": 1.5052069425582886,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.9334933587849,
+          "dec": 30.33849373755444,
+          "x": 40.573,
+          "y": -7.461
+        },
+        "epoch_1": {
+          "ra": 76.93349336968511,
+          "dec": 30.338493140244445,
+          "x": 40.573,
+          "y": -7.462
+        },
+        "epoch_2": {
+          "ra": 76.93349338170505,
+          "dec": 30.33849248157555,
+          "x": 40.573,
+          "y": -7.462
+        }
+      }
+    },
+    {
+      "source_id": "156430955257549952",
+      "ra_j2016": 76.96214822647,
+      "dec_j2016": 30.42174038339,
+      "ra": 76.96213821718621,
+      "dec": 30.421730252806935,
+      "x": 26.22,
+      "y": 40.868,
+      "pmra_mas_yr": -3.051,
+      "pmdec_mas_yr": -3.581,
+      "gmag": 16.4591121673584,
+      "bp_rp": 1.2590149641036987,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96213870204001,
+          "dec": 30.4217307435366,
+          "x": 26.22,
+          "y": 40.869
+        },
+        "epoch_1": {
+          "ra": 76.96213823323879,
+          "dec": 30.421730269054066,
+          "x": 26.22,
+          "y": 40.868
+        },
+        "epoch_2": {
+          "ra": 76.9621377162798,
+          "dec": 30.42172974583013,
+          "x": 26.221,
+          "y": 40.868
+        }
+      }
+    },
+    {
+      "source_id": "156382821561814656",
+      "ra_j2016": 77.01541664271,
+      "dec_j2016": 30.36254759219,
+      "ra": 77.0154179246699,
+      "dec": 30.36254629934546,
+      "x": -0.475,
+      "y": 6.511,
+      "pmra_mas_yr": 0.391,
+      "pmdec_mas_yr": -0.457,
+      "gmag": 16.481706619262695,
+      "bp_rp": 0.9971519708633423,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.01541786257123,
+          "dec": 30.362546361971383,
+          "x": -0.475,
+          "y": 6.511
+        },
+        "epoch_1": {
+          "ra": 77.01541792261393,
+          "dec": 30.362546301418874,
+          "x": -0.475,
+          "y": 6.511
+        },
+        "epoch_2": {
+          "ra": 77.01541798882454,
+          "dec": 30.362546234646114,
+          "x": -0.475,
+          "y": 6.511
+        }
+      }
+    },
+    {
+      "source_id": "156430542942612352",
+      "ra_j2016": 77.01390833362,
+      "dec_j2016": 30.42516596372,
+      "ra": 77.01391152581138,
+      "dec": 30.425164184290615,
+      "x": 0.298,
+      "y": 42.87,
+      "pmra_mas_yr": 0.973,
+      "pmdec_mas_yr": -0.629,
+      "gmag": 16.524681091308594,
+      "bp_rp": 0.6756590008735657,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.01391137118031,
+          "dec": 30.42516427048691,
+          "x": 0.299,
+          "y": 42.87
+        },
+        "epoch_1": {
+          "ra": 77.01391152069183,
+          "dec": 30.425164187144407,
+          "x": 0.298,
+          "y": 42.87
+        },
+        "epoch_2": {
+          "ra": 77.013911685562,
+          "dec": 30.42516409524052,
+          "x": 0.298,
+          "y": 42.869
+        }
+      }
+    },
+    {
+      "source_id": "156434155010930944",
+      "ra_j2016": 76.91679269688,
+      "dec_j2016": 30.44767792576,
+      "ra": 76.9167985183136,
+      "dec": 30.447674482889404,
+      "x": 48.917,
+      "y": 55.936,
+      "pmra_mas_yr": 1.774,
+      "pmdec_mas_yr": -1.217,
+      "gmag": 16.532203674316406,
+      "bp_rp": 1.1706680059432983,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.91679823632094,
+          "dec": 30.447674649663494,
+          "x": 48.917,
+          "y": 55.936
+        },
+        "epoch_1": {
+          "ra": 76.91679850897735,
+          "dec": 30.44767448841098,
+          "x": 48.917,
+          "y": 55.936
+        },
+        "epoch_2": {
+          "ra": 76.91679880964249,
+          "dec": 30.447674310593737,
+          "x": 48.917,
+          "y": 55.936
+        }
+      }
+    },
+    {
+      "source_id": "156337226188363776",
+      "ra_j2016": 76.89991895336,
+      "dec_j2016": 30.40120394992,
+      "ra": 76.89992307299816,
+      "dec": 30.40119490849512,
+      "x": 57.378,
+      "y": 28.952,
+      "pmra_mas_yr": 1.256,
+      "pmdec_mas_yr": -3.196,
+      "gmag": 16.563013076782227,
+      "bp_rp": 1.460131049156189,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89992287344118,
+          "dec": 30.401195346465496,
+          "x": 57.378,
+          "y": 28.952
+        },
+        "epoch_1": {
+          "ra": 76.89992306639121,
+          "dec": 30.401194922995487,
+          "x": 57.378,
+          "y": 28.952
+        },
+        "epoch_2": {
+          "ra": 76.89992327916207,
+          "dec": 30.401194456024367,
+          "x": 57.378,
+          "y": 28.951
+        }
+      }
+    },
+    {
+      "source_id": "156429924467261184",
+      "ra_j2016": 77.00571157355,
+      "dec_j2016": 30.3935466041,
+      "ra": 77.00571610938871,
+      "dec": 30.393546810615575,
+      "x": 4.394,
+      "y": 24.509,
+      "pmra_mas_yr": 1.383,
+      "pmdec_mas_yr": 0.073,
+      "gmag": 16.569002151489258,
+      "bp_rp": 1.2454960346221924,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.00571588967081,
+          "dec": 30.393546800611876,
+          "x": 4.394,
+          "y": 24.509
+        },
+        "epoch_1": {
+          "ra": 77.00571610211428,
+          "dec": 30.39354681028437,
+          "x": 4.394,
+          "y": 24.509
+        },
+        "epoch_2": {
+          "ra": 77.00571633638107,
+          "dec": 30.39354682095047,
+          "x": 4.394,
+          "y": 24.509
+        }
+      }
+    },
+    {
+      "source_id": "156430371143913216",
+      "ra_j2016": 77.02806952352,
+      "dec_j2016": 30.42184738058,
+      "ra": 77.02807733477248,
+      "dec": 30.42183882856874,
+      "x": -6.795,
+      "y": 40.943,
+      "pmra_mas_yr": 2.381,
+      "pmdec_mas_yr": -3.023,
+      "gmag": 16.574323654174805,
+      "bp_rp": 1.6130739450454712,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.02807695639218,
+          "dec": 30.421839242831734,
+          "x": -6.795,
+          "y": 40.943
+        },
+        "epoch_1": {
+          "ra": 77.02807732224503,
+          "dec": 30.42183884228421,
+          "x": -6.795,
+          "y": 40.943
+        },
+        "epoch_2": {
+          "ra": 77.0280777256802,
+          "dec": 30.421838400590296,
+          "x": -6.796,
+          "y": 40.942
+        }
+      }
+    },
+    {
+      "source_id": "156430611662094976",
+      "ra_j2016": 77.00245328133,
+      "dec_j2016": 30.42806866113,
+      "ra": 77.00246142116772,
+      "dec": 30.428061981904474,
+      "x": 6.032,
+      "y": 44.549,
+      "pmra_mas_yr": 2.481,
+      "pmdec_mas_yr": -2.361,
+      "gmag": 16.609411239624023,
+      "bp_rp": 1.132962942123413,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.00246102687063,
+          "dec": 30.428062305448943,
+          "x": 6.032,
+          "y": 44.55
+        },
+        "epoch_1": {
+          "ra": 77.00246140811329,
+          "dec": 30.428061992616403,
+          "x": 6.032,
+          "y": 44.549
+        },
+        "epoch_2": {
+          "ra": 77.00246182851924,
+          "dec": 30.42806164764805,
+          "x": 6.032,
+          "y": 44.549
+        }
+      }
+    },
+    {
+      "source_id": "156336951308578432",
+      "ra_j2016": 76.93285951582,
+      "dec_j2016": 30.37449738191,
+      "ra": 76.93286638219384,
+      "dec": 30.374498377711287,
+      "x": 40.883,
+      "y": 13.445,
+      "pmra_mas_yr": 2.094,
+      "pmdec_mas_yr": 0.352,
+      "gmag": 16.618730545043945,
+      "bp_rp": 1.102471947669983,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.93286604958384,
+          "dec": 30.37449832947428,
+          "x": 40.883,
+          "y": 13.445
+        },
+        "epoch_1": {
+          "ra": 76.93286637118176,
+          "dec": 30.374498376114254,
+          "x": 40.883,
+          "y": 13.445
+        },
+        "epoch_2": {
+          "ra": 76.93286672581593,
+          "dec": 30.37449842754535,
+          "x": 40.883,
+          "y": 13.445
+        }
+      }
+    },
+    {
+      "source_id": "156431303152642432",
+      "ra_j2016": 76.93486239735,
+      "dec_j2016": 30.45029717515,
+      "ra": 76.93486003458506,
+      "dec": 30.450298349177288,
+      "x": 39.876,
+      "y": 57.457,
+      "pmra_mas_yr": -0.72,
+      "pmdec_mas_yr": 0.415,
+      "gmag": 16.627965927124023,
+      "bp_rp": 1.3627949953079224,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.93486014903837,
+          "dec": 30.450298292306922,
+          "x": 39.876,
+          "y": 57.457
+        },
+        "epoch_1": {
+          "ra": 76.93486003837438,
+          "dec": 30.450298347294417,
+          "x": 39.876,
+          "y": 57.457
+        },
+        "epoch_2": {
+          "ra": 76.93485991634239,
+          "dec": 30.45029840793053,
+          "x": 39.876,
+          "y": 57.457
+        }
+      }
+    },
+    {
+      "source_id": "156430615957863040",
+      "ra_j2016": 77.00181750033,
+      "dec_j2016": 30.43868316633,
+      "ra": 77.00182047640321,
+      "dec": 30.438692997040608,
+      "x": 6.355,
+      "y": 50.722,
+      "pmra_mas_yr": 0.907,
+      "pmdec_mas_yr": 3.475,
+      "gmag": 16.650264739990234,
+      "bp_rp": 1.5709539651870728,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.00182033224097,
+          "dec": 30.438692520836916,
+          "x": 6.355,
+          "y": 50.722
+        },
+        "epoch_1": {
+          "ra": 77.00182047163027,
+          "dec": 30.4386929812744,
+          "x": 6.355,
+          "y": 50.722
+        },
+        "epoch_2": {
+          "ra": 77.00182062533838,
+          "dec": 30.43869348901051,
+          "x": 6.355,
+          "y": 50.722
+        }
+      }
+    },
+    {
+      "source_id": "156430542942606848",
+      "ra_j2016": 77.01608025668,
+      "dec_j2016": 30.42055259036,
+      "ra": 77.01608522353405,
+      "dec": 30.420545472642488,
+      "x": -0.791,
+      "y": 40.188,
+      "pmra_mas_yr": 1.514,
+      "pmdec_mas_yr": -2.516,
+      "gmag": 16.705324172973633,
+      "bp_rp": 1.3414340019226074,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.0160849829376,
+          "dec": 30.420545817427694,
+          "x": -0.791,
+          "y": 40.188
+        },
+        "epoch_1": {
+          "ra": 77.01608521556835,
+          "dec": 30.420545484057683,
+          "x": -0.791,
+          "y": 40.188
+        },
+        "epoch_2": {
+          "ra": 77.0160854720962,
+          "dec": 30.420545116442113,
+          "x": -0.791,
+          "y": 40.188
+        }
+      }
+    },
+    {
+      "source_id": "156336229755949568",
+      "ra_j2016": 76.95467438551,
+      "dec_j2016": 30.37414768872,
+      "ra": 76.95467233281944,
+      "dec": 30.374134070003134,
+      "x": 29.959,
+      "y": 13.232,
+      "pmra_mas_yr": -0.626,
+      "pmdec_mas_yr": -4.814,
+      "gmag": 16.71184730529785,
+      "bp_rp": 1.4900000095367432,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95467243225262,
+          "dec": 30.374134729699435,
+          "x": 29.959,
+          "y": 13.232
+        },
+        "epoch_1": {
+          "ra": 76.9546723361115,
+          "dec": 30.374134091844436,
+          "x": 29.959,
+          "y": 13.232
+        },
+        "epoch_2": {
+          "ra": 76.95467223009423,
+          "dec": 30.374133388465538,
+          "x": 29.959,
+          "y": 13.231
+        }
+      }
+    },
+    {
+      "source_id": "156340245549236224",
+      "ra_j2016": 76.8901114241,
+      "dec_j2016": 30.42325289846,
+      "ra": 76.8901054794569,
+      "dec": 30.423256977851153,
+      "x": 62.287,
+      "y": 41.765,
+      "pmra_mas_yr": -1.812,
+      "pmdec_mas_yr": 1.442,
+      "gmag": 16.721263885498047,
+      "bp_rp": 1.1121230125427246,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89010576741791,
+          "dec": 30.423256780243765,
+          "x": 62.287,
+          "y": 41.764
+        },
+        "epoch_1": {
+          "ra": 76.89010548899076,
+          "dec": 30.423256971308746,
+          "x": 62.287,
+          "y": 41.765
+        },
+        "epoch_2": {
+          "ra": 76.89010518196207,
+          "dec": 30.423257182000956,
+          "x": 62.287,
+          "y": 41.765
+        }
+      }
+    },
+    {
+      "source_id": "156336229755949440",
+      "ra_j2016": 76.94904833449,
+      "dec_j2016": 30.37863895619,
+      "ra": 76.9490533582388,
+      "dec": 30.378635858455183,
+      "x": 32.774,
+      "y": 15.846,
+      "pmra_mas_yr": 1.532,
+      "pmdec_mas_yr": -1.095,
+      "gmag": 16.740755081176758,
+      "bp_rp": 1.3149299621582031,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.94905311488634,
+          "dec": 30.378636008510746,
+          "x": 32.774,
+          "y": 15.846
+        },
+        "epoch_1": {
+          "ra": 76.94905335018186,
+          "dec": 30.37863586342323,
+          "x": 32.774,
+          "y": 15.846
+        },
+        "epoch_2": {
+          "ra": 76.94905360964822,
+          "dec": 30.37863570343156,
+          "x": 32.774,
+          "y": 15.846
+        }
+      }
+    },
+    {
+      "source_id": "156430130625704576",
+      "ra_j2016": 76.98776083351,
+      "dec_j2016": 30.40047064053,
+      "ra": 76.98776453000464,
+      "dec": 30.40046023836504,
+      "x": 13.386,
+      "y": 28.52,
+      "pmra_mas_yr": 1.127,
+      "pmdec_mas_yr": -3.677,
+      "gmag": 16.752981185913086,
+      "bp_rp": 1.2438889741897583,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98776435094491,
+          "dec": 30.400460742250235,
+          "x": 13.386,
+          "y": 28.52
+        },
+        "epoch_1": {
+          "ra": 76.98776452407631,
+          "dec": 30.400460255047722,
+          "x": 13.386,
+          "y": 28.52
+        },
+        "epoch_2": {
+          "ra": 76.98776471499268,
+          "dec": 30.400459717797162,
+          "x": 13.386,
+          "y": 28.52
+        }
+      }
+    },
+    {
+      "source_id": "156337290611706112",
+      "ra_j2016": 76.8983398604,
+      "dec_j2016": 30.40488106567,
+      "ra": 76.89834089690859,
+      "dec": 30.40488105435408,
+      "x": 58.169,
+      "y": 31.092,
+      "pmra_mas_yr": 0.316,
+      "pmdec_mas_yr": -0.004,
+      "gmag": 16.75448989868164,
+      "bp_rp": 1.1677589416503906,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.89834084669968,
+          "dec": 30.404881054902223,
+          "x": 58.169,
+          "y": 31.092
+        },
+        "epoch_1": {
+          "ra": 76.89834089524628,
+          "dec": 30.40488105437223,
+          "x": 58.169,
+          "y": 31.092
+        },
+        "epoch_2": {
+          "ra": 76.89834094877983,
+          "dec": 30.404881053787783,
+          "x": 58.169,
+          "y": 31.092
+        }
+      }
+    },
+    {
+      "source_id": "156430615957866368",
+      "ra_j2016": 76.99834776704,
+      "dec_j2016": 30.43070785478,
+      "ra": 76.99834776704,
+      "dec": 30.43070785478,
+      "x": 8.092,
+      "y": 46.085,
+      "pmra_mas_yr": 0.0,
+      "pmdec_mas_yr": 0.0,
+      "gmag": 16.77659797668457,
+      "bp_rp": 1.1555249691009521,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.99834776704,
+          "dec": 30.43070785478,
+          "x": 8.092,
+          "y": 46.085
+        },
+        "epoch_1": {
+          "ra": 76.99834776704,
+          "dec": 30.43070785478,
+          "x": 8.092,
+          "y": 46.085
+        },
+        "epoch_2": {
+          "ra": 76.99834776704,
+          "dec": 30.43070785478,
+          "x": 8.092,
+          "y": 46.085
+        }
+      }
+    },
+    {
+      "source_id": "156430611662100352",
+      "ra_j2016": 76.99854823357,
+      "dec_j2016": 30.43077170514,
+      "ra": 76.99854823357,
+      "dec": 30.43077170514,
+      "x": 7.992,
+      "y": 46.122,
+      "pmra_mas_yr": 0.0,
+      "pmdec_mas_yr": 0.0,
+      "gmag": 16.77867889404297,
+      "bp_rp": 1.1473339796066284,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.99854823357,
+          "dec": 30.43077170514,
+          "x": 7.992,
+          "y": 46.122
+        },
+        "epoch_1": {
+          "ra": 76.99854823357,
+          "dec": 30.43077170514,
+          "x": 7.992,
+          "y": 46.122
+        },
+        "epoch_2": {
+          "ra": 76.99854823357,
+          "dec": 30.43077170514,
+          "x": 7.992,
+          "y": 46.122
+        }
+      }
+    },
+    {
+      "source_id": "156429756964428928",
+      "ra_j2016": 76.99560474068,
+      "dec_j2016": 30.36414450963,
+      "ra": 76.99558468146847,
+      "dec": 30.364055634346236,
+      "x": 9.462,
+      "y": 7.383,
+      "pmra_mas_yr": -6.118,
+      "pmdec_mas_yr": -31.416,
+      "gmag": 16.8232421875,
+      "bp_rp": 1.8145400285720825,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.99558565314416,
+          "dec": 30.364059939501942,
+          "x": 9.462,
+          "y": 7.386
+        },
+        "epoch_1": {
+          "ra": 76.99558471363882,
+          "dec": 30.364055776881802,
+          "x": 9.462,
+          "y": 7.383
+        },
+        "epoch_2": {
+          "ra": 76.99558367762253,
+          "dec": 30.364051186654976,
+          "x": 9.463,
+          "y": 7.381
+        }
+      }
+    },
+    {
+      "source_id": "156430096265962240",
+      "ra_j2016": 76.9686132242,
+      "dec_j2016": 30.39879930778,
+      "ra": 76.96861386705768,
+      "dec": 30.398796442021755,
+      "x": 22.977,
+      "y": 27.552,
+      "pmra_mas_yr": 0.196,
+      "pmdec_mas_yr": -1.013,
+      "gmag": 16.830303192138672,
+      "bp_rp": 0.8090149760246277,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.9686138359174,
+          "dec": 30.39879658084027,
+          "x": 22.977,
+          "y": 27.552
+        },
+        "epoch_1": {
+          "ra": 76.96861386602669,
+          "dec": 30.398796446617776,
+          "x": 22.977,
+          "y": 27.552
+        },
+        "epoch_2": {
+          "ra": 76.96861389922897,
+          "dec": 30.398796298607213,
+          "x": 22.977,
+          "y": 27.552
+        }
+      }
+    },
+    {
+      "source_id": "156431092696502656",
+      "ra_j2016": 76.91884604175,
+      "dec_j2016": 30.41768594849,
+      "ra": 76.91884517241199,
+      "dec": 30.417685099795555,
+      "x": 47.898,
+      "y": 38.523,
+      "pmra_mas_yr": -0.265,
+      "pmdec_mas_yr": -0.3,
+      "gmag": 16.84184455871582,
+      "bp_rp": 1.1950969696044922,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.91884521452309,
+          "dec": 30.41768514090668,
+          "x": 47.898,
+          "y": 38.523
+        },
+        "epoch_1": {
+          "ra": 76.9188451738062,
+          "dec": 30.417685101156675,
+          "x": 47.898,
+          "y": 38.523
+        },
+        "epoch_2": {
+          "ra": 76.91884512890668,
+          "dec": 30.417685057323332,
+          "x": 47.898,
+          "y": 38.523
+        }
+      }
+    },
+    {
+      "source_id": "156430096265955584",
+      "ra_j2016": 76.97392860509,
+      "dec_j2016": 30.39515888973,
+      "ra": 76.9739364174872,
+      "dec": 30.39515146931136,
+      "x": 20.311,
+      "y": 25.436,
+      "pmra_mas_yr": 2.382,
+      "pmdec_mas_yr": -2.623,
+      "gmag": 16.8610782623291,
+      "bp_rp": 1.0896869897842407,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.97393603905147,
+          "dec": 30.395151828759516,
+          "x": 20.311,
+          "y": 25.436
+        },
+        "epoch_1": {
+          "ra": 76.9739364049579,
+          "dec": 30.395151481212,
+          "x": 20.311,
+          "y": 25.436
+        },
+        "epoch_2": {
+          "ra": 76.97393680845222,
+          "dec": 30.395151097962525,
+          "x": 20.311,
+          "y": 25.436
+        }
+      }
+    },
+    {
+      "source_id": "156337329267576704",
+      "ra_j2016": 76.9012960756,
+      "dec_j2016": 30.42206781133,
+      "ra": 76.90129828677027,
+      "dec": 30.42206574617349,
+      "x": 56.683,
+      "y": 41.07,
+      "pmra_mas_yr": 0.674,
+      "pmdec_mas_yr": -0.73,
+      "gmag": 16.871570587158203,
+      "bp_rp": 1.2272659540176392,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.90129817966026,
+          "dec": 30.422065846210536,
+          "x": 56.683,
+          "y": 41.07
+        },
+        "epoch_1": {
+          "ra": 76.90129828322407,
+          "dec": 30.422065749485537,
+          "x": 56.683,
+          "y": 41.07
+        },
+        "epoch_2": {
+          "ra": 76.90129839742649,
+          "dec": 30.422065642824432,
+          "x": 56.683,
+          "y": 41.07
+        }
+      }
+    },
+    {
+      "source_id": "156429718308758912",
+      "ra_j2016": 77.00189698832,
+      "dec_j2016": 30.35582603768,
+      "ra": 77.0018935393965,
+      "dec": 30.35582048156033,
+      "x": 6.3,
+      "y": 2.603,
+      "pmra_mas_yr": -1.052,
+      "pmdec_mas_yr": -1.964,
+      "gmag": 16.96671485900879,
+      "bp_rp": 1.2305599451065063,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.00189370646378,
+          "dec": 30.355820750701074,
+          "x": 6.299,
+          "y": 2.603
+        },
+        "epoch_1": {
+          "ra": 77.00189354492778,
+          "dec": 30.355820490471064,
+          "x": 6.3,
+          "y": 2.603
+        },
+        "epoch_2": {
+          "ra": 77.00189336679794,
+          "dec": 30.35582020350884,
+          "x": 6.3,
+          "y": 2.603
+        }
+      }
+    },
+    {
+      "source_id": "156431062634468224",
+      "ra_j2016": 76.97337310533,
+      "dec_j2016": 30.44074203506,
+      "ra": 76.97337256719742,
+      "dec": 30.44073979167769,
+      "x": 20.597,
+      "y": 51.907,
+      "pmra_mas_yr": -0.164,
+      "pmdec_mas_yr": -0.793,
+      "gmag": 16.97746467590332,
+      "bp_rp": 1.1031270027160645,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.97337259326477,
+          "dec": 30.44073990034806,
+          "x": 20.597,
+          "y": 51.907
+        },
+        "epoch_1": {
+          "ra": 76.97337256806046,
+          "dec": 30.440739795275555,
+          "x": 20.597,
+          "y": 51.907
+        },
+        "epoch_2": {
+          "ra": 76.97337254026701,
+          "dec": 30.44073967940944,
+          "x": 20.597,
+          "y": 51.907
+        }
+      }
+    },
+    {
+      "source_id": "156337084453229696",
+      "ra_j2016": 76.89018766056,
+      "dec_j2016": 30.37852821053,
+      "ra": 76.89019019866515,
+      "dec": 30.3785235031048,
+      "x": 62.26,
+      "y": 15.79,
+      "pmra_mas_yr": 0.774,
+      "pmdec_mas_yr": -1.664,
+      "gmag": 16.97793960571289,
+      "bp_rp": 1.1818430423736572,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.8901900757183,
+          "dec": 30.378523731134432,
+          "x": 62.26,
+          "y": 15.79
+        },
+        "epoch_1": {
+          "ra": 76.89019019459462,
+          "dec": 30.378523510654432,
+          "x": 62.26,
+          "y": 15.79
+        },
+        "epoch_2": {
+          "ra": 76.89019032568255,
+          "dec": 30.378523267525537,
+          "x": 62.26,
+          "y": 15.79
+        }
+      }
+    },
+    {
+      "source_id": "156431264495200384",
+      "ra_j2016": 76.95896610509,
+      "dec_j2016": 30.4441808192,
+      "ra": 76.9589815999163,
+      "dec": 30.44417230679381,
+      "x": 27.801,
+      "y": 53.899,
+      "pmra_mas_yr": 4.722,
+      "pmdec_mas_yr": -3.009,
+      "gmag": 17.007966995239258,
+      "bp_rp": 1.441033959388733,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.95898084934055,
+          "dec": 30.444172719138333,
+          "x": 27.802,
+          "y": 53.899
+        },
+        "epoch_1": {
+          "ra": 76.95898157506616,
+          "dec": 30.444172320445748,
+          "x": 27.801,
+          "y": 53.899
+        },
+        "epoch_2": {
+          "ra": 76.95898237534219,
+          "dec": 30.444171880797317,
+          "x": 27.801,
+          "y": 53.899
+        }
+      }
+    },
+    {
+      "source_id": "156430130626974464",
+      "ra_j2016": 76.98191934197,
+      "dec_j2016": 30.39880508806,
+      "ra": 76.98192586894392,
+      "dec": 30.398804188443737,
+      "x": 16.31,
+      "y": 27.558,
+      "pmra_mas_yr": 1.99,
+      "pmdec_mas_yr": -0.318,
+      "gmag": 17.01669692993164,
+      "bp_rp": 1.107485055923462,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.98192555277458,
+          "dec": 30.39880423202153,
+          "x": 16.31,
+          "y": 27.558
+        },
+        "epoch_1": {
+          "ra": 76.98192585847613,
+          "dec": 30.398804189886516,
+          "x": 16.31,
+          "y": 27.558
+        },
+        "epoch_2": {
+          "ra": 76.981926195581,
+          "dec": 30.398804143423167,
+          "x": 16.31,
+          "y": 27.558
+        }
+      }
+    },
+    {
+      "source_id": "156429825683899520",
+      "ra_j2016": 76.99270180633,
+      "dec_j2016": 30.38492960881,
+      "ra": 76.99270042897338,
+      "dec": 30.3849275436535,
+      "x": 10.911,
+      "y": 19.502,
+      "pmra_mas_yr": -0.42,
+      "pmdec_mas_yr": -0.73,
+      "gmag": 17.0665340423584,
+      "bp_rp": 0.8123630285263062,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.99270049569311,
+          "dec": 30.38492764369054,
+          "x": 10.911,
+          "y": 19.502
+        },
+        "epoch_1": {
+          "ra": 76.99270043118236,
+          "dec": 30.38492754696554,
+          "x": 10.911,
+          "y": 19.502
+        },
+        "epoch_2": {
+          "ra": 76.9927003600447,
+          "dec": 30.38492744030443,
+          "x": 10.911,
+          "y": 19.502
+        }
+      }
+    },
+    {
+      "source_id": "156431127061992576",
+      "ra_j2016": 76.94032783767,
+      "dec_j2016": 30.43800790145,
+      "ra": 76.9403335272783,
+      "dec": 30.438009030213493,
+      "x": 37.137,
+      "y": 50.321,
+      "pmra_mas_yr": 1.734,
+      "pmdec_mas_yr": 0.399,
+      "gmag": 17.08657455444336,
+      "bp_rp": 1.1315419673919678,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.9403332516713,
+          "dec": 30.43800897553573,
+          "x": 37.137,
+          "y": 50.321
+        },
+        "epoch_1": {
+          "ra": 76.94033351815348,
+          "dec": 30.438009028403222,
+          "x": 37.137,
+          "y": 50.321
+        },
+        "epoch_2": {
+          "ra": 76.94033381201012,
+          "dec": 30.438009086701545,
+          "x": 37.137,
+          "y": 50.321
+        }
+      }
+    },
+    {
+      "source_id": "156429860043767808",
+      "ra_j2016": 77.02314984117,
+      "dec_j2016": 30.37579372591,
+      "ra": 77.02316532842137,
+      "dec": 30.375766434724742,
+      "x": -4.352,
+      "y": 14.189,
+      "pmra_mas_yr": 4.723,
+      "pmdec_mas_yr": -9.647,
+      "gmag": 17.136999130249023,
+      "bp_rp": 1.2928789854049683,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 77.02316457821267,
+          "dec": 30.375767756721125,
+          "x": -4.351,
+          "y": 14.19
+        },
+        "epoch_1": {
+          "ra": 77.02316530358337,
+          "dec": 30.37576647849354,
+          "x": -4.352,
+          "y": 14.189
+        },
+        "epoch_2": {
+          "ra": 77.02316610346801,
+          "dec": 30.375765068959563,
+          "x": -4.352,
+          "y": 14.189
+        }
+      }
+    },
+    {
+      "source_id": "156430100561810560",
+      "ra_j2016": 76.9659048047,
+      "dec_j2016": 30.3928803605,
+      "ra": 76.96590505067655,
+      "dec": 30.392876190581294,
+      "x": 24.333,
+      "y": 24.115,
+      "pmra_mas_yr": 0.075,
+      "pmdec_mas_yr": -1.474,
+      "gmag": 17.19998550415039,
+      "bp_rp": 1.2448689937591553,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96590503876135,
+          "dec": 30.392876392573882,
+          "x": 24.333,
+          "y": 24.115
+        },
+        "epoch_1": {
+          "ra": 76.96590505028206,
+          "dec": 30.392876197268887,
+          "x": 24.333,
+          "y": 24.115
+        },
+        "epoch_2": {
+          "ra": 76.96590506298624,
+          "dec": 30.392875981901113,
+          "x": 24.333,
+          "y": 24.114
+        }
+      }
+    },
+    {
+      "source_id": "156431028274733952",
+      "ra_j2016": 76.96069788039,
+      "dec_j2016": 30.43403730828,
+      "ra": 76.96070566308907,
+      "dec": 30.434029545554584,
+      "x": 26.938,
+      "y": 48.01,
+      "pmra_mas_yr": 2.372,
+      "pmdec_mas_yr": -2.744,
+      "gmag": 17.213274002075195,
+      "bp_rp": 1.2613199949264526,
+      "epoch_positions": {
+        "epoch_0": {
+          "ra": 76.96070528609194,
+          "dec": 30.434029921584234,
+          "x": 26.938,
+          "y": 48.01
+        },
+        "epoch_1": {
+          "ra": 76.96070565060742,
+          "dec": 30.434029558004216,
+          "x": 26.938,
+          "y": 48.01
+        },
+        "epoch_2": {
+          "ra": 76.96070605256787,
+          "dec": 30.434029157075297,
+          "x": 26.938,
+          "y": 48.01
+        }
+      }
+    }
+  ],
+  "external_links": {
+    "wiseview": "http://byw.tools/wiseview#ra=76.956587&dec=30.401290&size=360&band=2&speed=500&minbright=-50.0000&maxbright=500.0000&window=0.5&diff_window=1&linear=1&color=&zoom=9&border=0&gaia=1&invert=1&pmra=7.2&pmdec=-20.3",
+    "gaia_dr3": "https://vizier.cds.unistra.fr/viz-bin/VizieR-4?-source=I/355/gaiadr3&-c=76.956587+30.401290&-c.rm=6.0",
+    "cadc": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/?Plane.position.bounds=76.956587%2030.401290%200.0500",
+    "irsa_spherex": "https://irsa.ipac.caltech.edu/applications/spherex/#id=Hydra_spherex_spherex_1&RequestClass=ServerRequest&DoSearch=true&UserTargetWorldPt=76.956587;30.401290;EQ_J2000"
+  },
+  "generated_at_unix": 1794718760.7368686,
+  "processing_time_sec": 9.58
+}
